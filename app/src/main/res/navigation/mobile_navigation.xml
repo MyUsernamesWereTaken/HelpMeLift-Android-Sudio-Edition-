@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_muscles">
+
+    <fragment
+        android:id="@+id/navigation_muscles"
+        android:name="com.example.helpmelift.ui.MuscleGroups.MuscleGroupsFragment"
+        android:label="@string/title_muscles"
+        tools:layout="@layout/fragment_musclegroups" />
+
+    <fragment
+        android:id="@+id/navigation_journal"
+        android:name="com.example.helpmelift.ui.Journal.DashboardFragment"
+        android:label="@string/title_journal"
+        tools:layout="@layout/fragment_journal" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.example.helpmelift.ui.notifications.NotificationsFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_notifications" />
+</navigation>
