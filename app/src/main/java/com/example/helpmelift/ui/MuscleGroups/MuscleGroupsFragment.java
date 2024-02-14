@@ -21,8 +21,7 @@ public class MuscleGroupsFragment extends Fragment {
 
     private FragmentMusclegroupsBinding binding;
 
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         binding = FragmentMusclegroupsBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
@@ -40,18 +39,18 @@ public class MuscleGroupsFragment extends Fragment {
         Button calves_butt = root.findViewById(R.id.Calves);
         Button forearms_butt = root.findViewById(R.id.Forearms);
 
-        delt_butt.setOnClickListener(v1 -> viewExercises(requireContext()));
-        bicep_butt.setOnClickListener(v2 -> viewExercises(requireContext()));
-        tricep_butt.setOnClickListener(v3 -> viewExercises(requireContext()));
-        abs_butt.setOnClickListener(v4 -> viewExercises(requireContext()));
-        traps_butt.setOnClickListener(v5 -> viewExercises(requireContext()));
-        lats_butt.setOnClickListener(v6 -> viewExercises(requireContext()));
-        lowerback_butt.setOnClickListener(v7 -> viewExercises(requireContext()));
-        glute_butt.setOnClickListener(v8 -> viewExercises(requireContext()));
-        quads_butt.setOnClickListener(v9 -> viewExercises(requireContext()));
-        hamstring_butt.setOnClickListener(v10 -> viewExercises(requireContext()));
-        calves_butt.setOnClickListener(v11 -> viewExercises(requireContext()));
-        forearms_butt.setOnClickListener(v12 -> viewExercises(requireContext()));
+        delt_butt.setOnClickListener(v1 -> viewExercises(requireContext(), "Deltoids/Shoulders"));
+        bicep_butt.setOnClickListener(v2 -> viewExercises(requireContext(), "Biceps"));
+        tricep_butt.setOnClickListener(v3 -> viewExercises(requireContext(), "Triceps"));
+        abs_butt.setOnClickListener(v4 -> viewExercises(requireContext(), "Abs"));
+        traps_butt.setOnClickListener(v5 -> viewExercises(requireContext(), "Trapezius"));
+        lats_butt.setOnClickListener(v6 -> viewExercises(requireContext(), "Latissimus Dorsi"));
+        lowerback_butt.setOnClickListener(v7 -> viewExercises(requireContext(), "Lower Back"));
+        glute_butt.setOnClickListener(v8 -> viewExercises(requireContext(), "Glutes"));
+        quads_butt.setOnClickListener(v9 -> viewExercises(requireContext(), "Quadriceps"));
+        hamstring_butt.setOnClickListener(v10 -> viewExercises(requireContext(), "Hamstrings"));
+        calves_butt.setOnClickListener(v11 -> viewExercises(requireContext(), "Calves"));
+        forearms_butt.setOnClickListener(v12 -> viewExercises(requireContext(), "Forearms"));
 
         return root;
     }
@@ -62,8 +61,10 @@ public class MuscleGroupsFragment extends Fragment {
         binding = null;
     }
 
-    private void viewExercises(Context context) {
+    private void viewExercises(Context context, String muscle) {
+        //MuscleExercises muscles = new MuscleExercises(muscle);
         Intent intent = new Intent(context, MuscleExercises.class);
+        intent.putExtra("Muscle", muscle);
         startActivity(intent);
     }
 }
