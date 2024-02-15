@@ -1,8 +1,11 @@
 <resources>
+    <!--App Information !-->
     <string name="app_name">HelpMeLift</string>
     <string name="title_muscles">Muscle Groups</string>
     <string name="title_journal">Journal</string>
     <string name="title_profile">Profile</string>
+
+    <!-- Muscles !-->
     <string name="chest">Chest</string>
     <string name="biceps">Biceps</string>
     <string name="triceps">Triceps</string>
@@ -15,11 +18,19 @@
     <string name="hamstring">Hamstrings</string>
     <string name="calves">Calves</string>
     <string name="forearms">Forearms</string>
-    <string name="muscleSelected">Muscle Selected</string>
     <string name="lower_back">Lower Back </string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Placeholder Values !-->
+    <string name="muscleSelected">Muscle Selected</string>
     <string name="title_activity_muscle_exercises">MuscleExercises</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
+
+    <!-- Workouts for Front Delts !-->
+    <string name="OverheadPress">Overhead Press</string>
+    <string name="DumbbellShoulderPress">Dumbbell Shoulder Press</string>
+
+    <!-- Workouts For Mid Delts !-->
+    <string name="LateralRaises">Lateral Raises</string>
+
+    <!--Workout for Rear Delts !-->
+    <string name="BentOverRearDeltFlys">Bent Over Rear Delt Flys </string>
 </resources>

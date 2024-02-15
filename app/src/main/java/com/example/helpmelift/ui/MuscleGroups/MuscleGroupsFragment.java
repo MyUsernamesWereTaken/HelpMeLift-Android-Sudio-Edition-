@@ -62,7 +62,6 @@ public class MuscleGroupsFragment extends Fragment {
     }
 
     private void viewExercises(Context context, String muscle) {
-        //MuscleExercises muscles = new MuscleExercises(muscle);
         Intent intent = new Intent(context, MuscleExercises.class);
         intent.putExtra("Muscle", muscle);
         startActivity(intent);

@@ -1,38 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MuscleExercises">
+    xmlns:tools="http://schemas.android.com/tools">
 
-    <!-- Id = activity_muscle_exercises !-->
+    <data>
+        <import type="android.view.View" />
+        <variable
+            name="DeltsChosen"
+            type="boolean" />
+        <variable
+            name="BicepsChosen"
+            type="boolean" />
+        <variable
+            name="TricepsChosen"
+            type="boolean" />
+        <variable
+            name="AbsChosen"
+            type="boolean" />
+        <variable
+            name="TrapsChosen"
+            type="boolean" />
+        <variable
+            name="LatsChosen"
+            type="boolean" />
+        <variable
+            name="LowerbackChosen"
+            type="boolean" />
+        <variable
+            name="GlutesChosen"
+            type="boolean" />
+        <variable
+            name="QuadsChosen"
+            type="boolean" />
+        <variable
+            name="HamstringsChosen"
+            type="boolean" />
+        <variable
+            name="CalvesChosen"
+            type="boolean" />
+        <variable
+            name="ForearmsChosen"
+            type="boolean" />
+    </data>
 
-    <TextView
-        android:id="@+id/muscleSelected"
-        android:layout_width="150dp"
-        android:layout_height="67dp"
-        android:layout_marginTop="32dp"
-        android:text="@string/muscleSelected"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="TextSizeCheck" />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MuscleExercises">
 
-    <FrameLayout
-        android:id="@+id/exerciselayer"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        app:layout_constraintTop_toBottomOf="@id/muscleSelected"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:context=".ui.MuscleGroups.MuscleGroupsFragment">
+        <!-- Id = activity_muscle_exercises !-->
 
-        <include layout="@layout/fragment_actual_exercises" />
+        <TextView
+            android:id="@+id/muscleSelected"
+            android:layout_width="150dp"
+            android:layout_height="67dp"
+            android:layout_marginTop="36dp"
+            android:text="@string/muscleSelected"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="TextSizeCheck" />
 
-    </FrameLayout>
+        <FrameLayout
+            android:id="@+id/exerciselayer"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintTop_toBottomOf="@id/muscleSelected"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            tools:context=".ui.MuscleGroups.MuscleGroupsFragment"
+            android:visibility="@{DeltsChosen ? View.VISIBLE : View.GONE}">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+            <include layout="@layout/fragment_delts_exercises" />
+
+        </FrameLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -12,7 +12,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HelpMeLift"
         tools:targetApi="31">
-        <activity android:name=".MuscleExercises"
+        <activity
+            android:name=".ui.viewWorkout"
+            android:exported="false" />
+        <activity
+            android:name=".MuscleExercises"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

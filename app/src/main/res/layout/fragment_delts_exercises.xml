@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.ActualExercises.ActualExercisesFragment">
+    tools:context=".ui.ActualExercises.DeltsExercisesFragment">
     <!--tools:context=".ui.MuscleGroups.MuscleGroupsFragment"!-->
 
 
@@ -20,61 +20,59 @@
         app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0">
+        app:layout_constraintVertical_bias="0.065">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-
-            <!-- Button 1 -->
             <Button
-                android:id="@+id/button1"
+                android:id="@+id/Overhead_Press"
                 android:layout_width="200dp"
                 android:layout_height="75dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_margin="8dp"
                 android:backgroundTint="#A42A04"
-                android:text="Button 1"
-                android:textColor="#FFFFFF"
+                android:text="@string/OverheadPress"
+                android:textColor="#000000"
                 android:textSize="18sp" />
 
-            <!-- Button 2 -->
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/Dumbbell_Shoulder_Press"
                 android:layout_width="200dp"
                 android:layout_height="75dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_margin="8dp"
                 android:backgroundTint="#A42A04"
-                android:text="Button 2"
-                android:textColor="#FFFFFF"
-                android:textSize="18sp" />
+                android:text="@string/DumbbellShoulderPress"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                tools:ignore="TextSizeCheck" />
 
-            <!-- Button 3 -->
             <Button
-                android:id="@+id/button3"
+                android:id="@+id/Lateral_Raises"
                 android:layout_width="200dp"
                 android:layout_height="75dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_margin="8dp"
                 android:backgroundTint="#A42A04"
-                android:text="Button 3"
-                android:textColor="#FFFFFF"
-                android:textSize="18sp" />
+                android:text="@string/LateralRaises"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                tools:ignore="TextSizeCheck" />
 
-            <!-- Button 4 -->
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/Bent_Over_Rear_Delt_Flys"
                 android:layout_width="200dp"
                 android:layout_height="75dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_margin="8dp"
                 android:backgroundTint="#A42A04"
-                android:text="Button 4"
-                android:textColor="#FFFFFF"
-                android:textSize="18sp" />
+                android:text="@string/BentOverRearDeltFlys"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                tools:ignore="TextSizeCheck" />
 
         </LinearLayout>
     </ScrollView>
