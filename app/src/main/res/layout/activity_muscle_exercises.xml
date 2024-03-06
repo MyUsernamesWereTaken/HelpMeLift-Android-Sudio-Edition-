@@ -9,6 +9,9 @@
             name="DeltsChosen"
             type="boolean" />
         <variable
+            name="ChestChosen"
+            type="boolean" />
+        <variable
             name="BicepsChosen"
             type="boolean" />
         <variable
