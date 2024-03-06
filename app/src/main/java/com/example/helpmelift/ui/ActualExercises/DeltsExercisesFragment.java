@@ -9,15 +9,11 @@ import android.view.ViewGroup;
 import android.widget.Button;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
-import androidx.databinding.DataBindingUtil;
 
-import com.example.helpmelift.MuscleExercises;
 import com.example.helpmelift.R;
-import com.example.helpmelift.databinding.ActivityMuscleExercisesBinding;
 import com.example.helpmelift.databinding.FragmentDeltsExercisesBinding;
-import com.example.helpmelift.ui.viewWorkout;
+import com.example.helpmelift.viewWorkout;
 
 //import com.example.helpmelift.databinding.FragmentBicepsExercisesBinding;
 //import com.example.helpmelift.databinding.FragmentTricepsExercisesBinding;

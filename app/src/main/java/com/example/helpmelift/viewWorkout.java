@@ -1,4 +1,4 @@
-package com.example.helpmelift.ui;
+package com.example.helpmelift;
 
 import androidx.appcompat.app.AppCompatActivity;
 
