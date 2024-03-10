@@ -31,9 +31,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             tools:context=".ui.MuscleGroups.MuscleGroupsFragment">
 
-            <!--
             <include layout="@layout/fragment_calves_exercises"/>
-            !-->
+
         </FrameLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>

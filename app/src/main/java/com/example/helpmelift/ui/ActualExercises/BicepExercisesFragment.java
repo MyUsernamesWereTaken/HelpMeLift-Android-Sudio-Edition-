@@ -12,12 +12,12 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
 import com.example.helpmelift.R;
-import com.example.helpmelift.databinding.FragmentDeltsExercisesBinding;
+import com.example.helpmelift.databinding.FragmentBicepExercisesBinding;
 import com.example.helpmelift.viewWorkout;
 
-public class DeltsExercisesFragment extends Fragment {
+public class BicepExercisesFragment extends Fragment {
 
-    private FragmentDeltsExercisesBinding binding;
+    private FragmentBicepExercisesBinding binding;
     private boolean DeltsChosen = false;
 
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState, String muscle) {
