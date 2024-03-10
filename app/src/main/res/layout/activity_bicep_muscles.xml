@@ -3,49 +3,6 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <data>
-        <import type="android.view.View" />
-        <variable
-            name="DeltsChosen"
-            type="boolean" />
-        <variable
-            name="ChestChosen"
-            type="boolean" />
-        <variable
-            name="BicepsChosen"
-            type="boolean" />
-        <variable
-            name="TricepsChosen"
-            type="boolean" />
-        <variable
-            name="AbsChosen"
-            type="boolean" />
-        <variable
-            name="TrapsChosen"
-            type="boolean" />
-        <variable
-            name="LatsChosen"
-            type="boolean" />
-        <variable
-            name="LowerbackChosen"
-            type="boolean" />
-        <variable
-            name="GlutesChosen"
-            type="boolean" />
-        <variable
-            name="QuadsChosen"
-            type="boolean" />
-        <variable
-            name="HamstringsChosen"
-            type="boolean" />
-        <variable
-            name="CalvesChosen"
-            type="boolean" />
-        <variable
-            name="ForearmsChosen"
-            type="boolean" />
-    </data>
-
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -66,18 +23,17 @@
             tools:ignore="TextSizeCheck" />
 
         <FrameLayout
-            android:id="@+id/exerciselayer"
             android:layout_width="0dp"
             android:layout_height="0dp"
             app:layout_constraintTop_toBottomOf="@id/muscleSelected"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            tools:context=".ui.MuscleGroups.MuscleGroupsFragment"
-            android:visibility="@{DeltsChosen ? View.VISIBLE : View.GONE}">
+            tools:context=".ui.MuscleGroups.MuscleGroupsFragment">
 
-            <include layout="@layout/fragment_delts_exercises" />
-
+            <!--
+            <include layout="@layout/fragment_biceps_exercises"/>
+            !-->
         </FrameLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>

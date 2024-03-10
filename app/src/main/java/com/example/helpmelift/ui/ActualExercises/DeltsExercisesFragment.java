@@ -35,14 +35,6 @@ public class DeltsExercisesFragment extends Fragment {
 
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState, String muscle) {
 
-        if (muscle.equals("Deltoids/Shoulders")) {
-
-            binding = FragmentDeltsExercisesBinding.inflate(inflater, container, false);
-            return binding.getRoot();
-        } else{
-            DeltsChosen = false;
-        }
-
 
         Button overheadpressButton = binding.getRoot().findViewById(R.id.Overhead_Press);
         Button dbshoulderpressButton = binding.getRoot().findViewById(R.id.Dumbbell_Shoulder_Press);
