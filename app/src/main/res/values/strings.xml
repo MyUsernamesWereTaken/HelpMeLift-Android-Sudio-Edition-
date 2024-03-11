@@ -24,7 +24,18 @@
     <string name="muscleSelected">Muscle Selected</string>
     <string name="title_activity_muscle_exercises">MuscleExercises</string>
 
-    <!-- Workouts for Front Delts !-->
+    <!-- Workout for Abs !-->
+        <!--Abs!-->
+            <string name="Crunches">Crunches</string>
+            <string name="Situp">Sit-ups</string>
+            <string name="Lsit">L-sit</string>
+        <!--Obliques!-->
+            <string name="RussianTwists">Russian Twists</string>
+
+
+
+
+<!-- Workouts for Front Delts !-->
     <string name="OverheadPress">Overhead Press</string>
     <string name="DumbbellShoulderPress">Dumbbell Shoulder Press</string>
 
@@ -34,4 +45,6 @@
     <!--Workout for Rear Delts !-->
     <string name="BentOverRearDeltFlys">Bent Over Rear Delt Flys </string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
 </resources>

@@ -33,6 +33,7 @@
 
 
             <include layout="@layout/fragment_abs_exercises"/>
+
         </FrameLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>

@@ -24,15 +24,15 @@ public class AbsExercisesFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState, String muscle) {
 
 
-        Button overheadpressButton = binding.getRoot().findViewById(R.id.Overhead_Press);
-        Button dbshoulderpressButton = binding.getRoot().findViewById(R.id.Dumbbell_Shoulder_Press);
-        Button lateralraisesButton = binding.getRoot().findViewById(R.id.Lateral_Raises);
-        Button bentoverflys = binding.getRoot().findViewById(R.id.Bent_Over_Rear_Delt_Flys);
+        Button overheadpressButton = binding.getRoot().findViewById(R.id.Crunches);
+        Button dbshoulderpressButton = binding.getRoot().findViewById(R.id.Situp);
+        Button lateralraisesButton = binding.getRoot().findViewById(R.id.Lsit);
+        Button bentoverflys = binding.getRoot().findViewById(R.id.RussianTwists);
 
-        overheadpressButton.setOnClickListener(v1 -> glimpseworkout(requireContext(), "Overhead Press"));
-        dbshoulderpressButton.setOnClickListener(v2 -> glimpseworkout(requireContext(), "Dumbbell Shoulder Press"));
-        lateralraisesButton.setOnClickListener(v3 -> glimpseworkout(requireContext(), "Lateral Raises"));
-        bentoverflys.setOnClickListener(v4 -> glimpseworkout(requireContext(), "Bent Over Rear Delt Flys"));
+        overheadpressButton.setOnClickListener(v1 -> glimpseCrunches(requireContext(), "Crunches"));
+        dbshoulderpressButton.setOnClickListener(v2 -> glimpseSitup(requireContext(), "Sit-up"));
+        lateralraisesButton.setOnClickListener(v3 -> glimpseLsit(requireContext(), "L-sit"));
+        bentoverflys.setOnClickListener(v4 -> glimpseRussiantwist(requireContext(), "Russian Twist"));
 
         return binding.getRoot();
     }
@@ -43,7 +43,25 @@ public class AbsExercisesFragment extends Fragment {
         binding = null;
     }
 
-    private void glimpseworkout(Context context, String workout) {
+    private void glimpseCrunches(Context context, String workout) {
+        Intent intent = new Intent(context, viewWorkout.class);
+        intent.putExtra("Exercise", workout);
+        startActivity(intent);
+    }
+
+    private void glimpseSitup(Context context, String workout) {
+        Intent intent = new Intent(context, viewWorkout.class);
+        intent.putExtra("Exercise", workout);
+        startActivity(intent);
+    }
+
+    private void glimpseLsit(Context context, String workout) {
+        Intent intent = new Intent(context, viewWorkout.class);
+        intent.putExtra("Exercise", workout);
+        startActivity(intent);
+    }
+
+    private void glimpseRussiantwist(Context context, String workout) {
         Intent intent = new Intent(context, viewWorkout.class);
         intent.putExtra("Exercise", workout);
         startActivity(intent);
