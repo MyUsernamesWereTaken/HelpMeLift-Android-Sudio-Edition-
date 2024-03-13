@@ -16,7 +16,40 @@
             android:name=".viewWorkout"
             android:exported="false" />
         <activity
-            android:name=".MuscleExercises"
+            android:name=".AbsMuscle"
+            android:exported="false" />
+        <activity
+            android:name=".BicepMuscle"
+            android:exported="false" />
+        <activity
+            android:name=".CalvesMuscle"
+            android:exported="false" />
+        <activity
+            android:name=".DeltMuscle"
+            android:exported="false" />
+        <activity
+            android:name=".ForearmsMuscle"
+            android:exported="false" />
+        <activity
+            android:name=".GlutesMuscle"
+            android:exported="false" />
+        <activity
+            android:name=".HamstringMuscle"
+            android:exported="false" />
+        <activity
+            android:name=".LatsMuscle"
+            android:exported="false" />
+        <activity
+            android:name=".LowerBackMuscle"
+            android:exported="false" />
+        <activity
+            android:name=".QuadsMuscle"
+            android:exported="false" />
+        <activity
+            android:name=".TrapsMuscle"
+            android:exported="false" />
+        <activity
+            android:name=".TricepMuscle"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
