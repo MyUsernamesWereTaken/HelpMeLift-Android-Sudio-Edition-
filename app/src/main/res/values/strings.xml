@@ -39,6 +39,11 @@
             <string name="Incline_Bicep_Curl">Incline Bicep Curl</string>
         <!--Long head (Outer bicep)!-->
             <string name="Waiter_Curls">Waiter Curls</string>
+    <!--Workout for Calves!-->
+        <!--Standing!-->
+            <string name="StandingCalfRaises">Standing Calf Raises</string>
+            <string name="SingleStandingCalfRaises">Single Standing Calf Raises</string>
+        <!--Sitting!-->
 
     <!--Workout for Delts!-->
         <!-- Workouts for Front Delts !-->
