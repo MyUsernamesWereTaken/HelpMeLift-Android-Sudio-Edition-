@@ -23,10 +23,10 @@ public class BicepExercisesFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState, String muscle) {
 
 
-        Button overheadpressButton = binding.getRoot().findViewById(R.id.Overhead_Press);
-        Button dbshoulderpressButton = binding.getRoot().findViewById(R.id.Dumbbell_Shoulder_Press);
-        Button lateralraisesButton = binding.getRoot().findViewById(R.id.Lateral_Raises);
-        Button bentoverflys = binding.getRoot().findViewById(R.id.Bent_Over_Rear_Delt_Flys);
+        Button overheadpressButton = binding.getRoot().findViewById(R.id.Standing_Bicep_CurlDumbbell);
+        Button dbshoulderpressButton = binding.getRoot().findViewById(R.id.Standing_Bicep_CurlBarbell);
+        Button lateralraisesButton = binding.getRoot().findViewById(R.id.Incline_Bicep_Curl);
+        Button bentoverflys = binding.getRoot().findViewById(R.id.Waiter_Curls);
 
         overheadpressButton.setOnClickListener(v1 -> glimpseworkout(requireContext(), "Overhead Press"));
         dbshoulderpressButton.setOnClickListener(v2 -> glimpseworkout(requireContext(), "Dumbbell Shoulder Press"));
