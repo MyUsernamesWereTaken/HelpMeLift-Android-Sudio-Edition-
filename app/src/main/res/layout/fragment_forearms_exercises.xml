@@ -30,48 +30,48 @@
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/Overhead_Press"
+                android:id="@+id/Hammer_Curls"
                 android:layout_width="200dp"
                 android:layout_height="75dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_margin="8dp"
                 android:backgroundTint="#A42A04"
-                android:text="@string/OverheadPress"
+                android:text="@string/Hammer_Curls"
                 android:textColor="#000000"
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/Dumbbell_Shoulder_Press"
+                android:id="@+id/Forearm_Curls_Db"
                 android:layout_width="200dp"
                 android:layout_height="75dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_margin="8dp"
                 android:backgroundTint="#A42A04"
-                android:text="@string/DumbbellShoulderPress"
+                android:text="@string/Forearm_Curls_Db"
                 android:textColor="#000000"
                 android:textSize="18sp"
                 tools:ignore="TextSizeCheck" />
 
             <Button
-                android:id="@+id/Lateral_Raises"
+                android:id="@+id/Farmer_Carries"
                 android:layout_width="200dp"
                 android:layout_height="75dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_margin="8dp"
                 android:backgroundTint="#A42A04"
-                android:text="@string/LateralRaises"
+                android:text="@string/Farmer_Carries"
                 android:textColor="#000000"
                 android:textSize="18sp"
                 tools:ignore="TextSizeCheck" />
 
             <Button
-                android:id="@+id/Bent_Over_Rear_Delt_Flys"
+                android:id="@+id/Forearm_Curls_Cable"
                 android:layout_width="200dp"
                 android:layout_height="75dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_margin="8dp"
                 android:backgroundTint="#A42A04"
-                android:text="@string/BentOverRearDeltFlys"
+                android:text="@string/Forearm_Curls_Cable"
                 android:textColor="#000000"
                 android:textSize="18sp"
                 tools:ignore="TextSizeCheck" />

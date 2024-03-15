@@ -24,15 +24,15 @@ public class LowerBackExercisesFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState, String muscle) {
 
 
-        Button overheadpressButton = binding.getRoot().findViewById(R.id.Overhead_Press);
-        Button dbshoulderpressButton = binding.getRoot().findViewById(R.id.Dumbbell_Shoulder_Press);
-        Button lateralraisesButton = binding.getRoot().findViewById(R.id.Lateral_Raises);
-        Button bentoverflys = binding.getRoot().findViewById(R.id.Bent_Over_Rear_Delt_Flys);
+        Button overheadpressButton = binding.getRoot().findViewById(R.id.Prisoner_Back_Extensions);
+        Button dbshoulderpressButton = binding.getRoot().findViewById(R.id.Deadlifts);
+        Button lateralraisesButton = binding.getRoot().findViewById(R.id.Good_Mornings);
+        Button bentoverflys = binding.getRoot().findViewById(R.id.Kettlebell_Swings);
 
-        overheadpressButton.setOnClickListener(v1 -> glimpseworkout(requireContext(), "Overhead Press"));
-        dbshoulderpressButton.setOnClickListener(v2 -> glimpseworkout(requireContext(), "Dumbbell Shoulder Press"));
-        lateralraisesButton.setOnClickListener(v3 -> glimpseworkout(requireContext(), "Lateral Raises"));
-        bentoverflys.setOnClickListener(v4 -> glimpseworkout(requireContext(), "Bent Over Rear Delt Flys"));
+        overheadpressButton.setOnClickListener(v1 -> glimpseworkout(requireContext(), "Prisoner Back Extensions"));
+        dbshoulderpressButton.setOnClickListener(v2 -> glimpseworkout(requireContext(), "Deadlifts"));
+        lateralraisesButton.setOnClickListener(v3 -> glimpseworkout(requireContext(), "Good Mornings"));
+        bentoverflys.setOnClickListener(v4 -> glimpseworkout(requireContext(), "Kettlebell Swings"));
 
         return binding.getRoot();
     }

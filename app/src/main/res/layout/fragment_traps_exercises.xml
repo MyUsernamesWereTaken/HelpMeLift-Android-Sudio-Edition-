@@ -30,48 +30,48 @@
             android:orientation="vertical">
 
             <Button
-                android:id="@+id/Overhead_Press"
+                android:id="@+id/Dumbbell_Shrugs"
                 android:layout_width="200dp"
                 android:layout_height="75dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_margin="8dp"
                 android:backgroundTint="#A42A04"
-                android:text="@string/OverheadPress"
+                android:text="@string/Dumbbell_Shrugs"
                 android:textColor="#000000"
                 android:textSize="18sp" />
 
             <Button
-                android:id="@+id/Dumbbell_Shoulder_Press"
+                android:id="@+id/Face_Pulls"
                 android:layout_width="200dp"
                 android:layout_height="75dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_margin="8dp"
                 android:backgroundTint="#A42A04"
-                android:text="@string/DumbbellShoulderPress"
+                android:text="@string/Face_Pulls"
                 android:textColor="#000000"
                 android:textSize="18sp"
                 tools:ignore="TextSizeCheck" />
 
             <Button
-                android:id="@+id/Lateral_Raises"
+                android:id="@+id/Chest_Supported_Rows"
                 android:layout_width="200dp"
                 android:layout_height="75dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_margin="8dp"
                 android:backgroundTint="#A42A04"
-                android:text="@string/LateralRaises"
+                android:text="@string/Chest_Supported_Rows"
                 android:textColor="#000000"
                 android:textSize="18sp"
                 tools:ignore="TextSizeCheck" />
 
             <Button
-                android:id="@+id/Bent_Over_Rear_Delt_Flys"
+                android:id="@+id/Upright_Row"
                 android:layout_width="200dp"
                 android:layout_height="75dp"
                 android:layout_gravity="center_horizontal"
                 android:layout_margin="8dp"
                 android:backgroundTint="#A42A04"
-                android:text="@string/BentOverRearDeltFlys"
+                android:text="@string/Upright_Row"
                 android:textColor="#000000"
                 android:textSize="18sp"
                 tools:ignore="TextSizeCheck" />
