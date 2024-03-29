@@ -13,7 +13,6 @@ import androidx.fragment.app.Fragment;
 
 import com.example.helpmelift.R;
 import com.example.helpmelift.databinding.FragmentQuadsExercisesBinding;
-import com.example.helpmelift.viewWorkout;
 
 
 public class QuadsExercisesFragment extends Fragment {

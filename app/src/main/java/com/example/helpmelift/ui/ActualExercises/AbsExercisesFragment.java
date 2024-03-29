@@ -13,7 +13,7 @@ import androidx.fragment.app.Fragment;
 
 import com.example.helpmelift.R;
 import com.example.helpmelift.databinding.FragmentAbsExercisesBinding;
-import com.example.helpmelift.viewWorkout;
+import com.example.helpmelift.ui.AbsWorkout.Crunches;
 
 
 public class AbsExercisesFragment extends Fragment {
@@ -44,25 +44,25 @@ public class AbsExercisesFragment extends Fragment {
     }
 
     private void glimpseCrunches(Context context, String workout) {
-        Intent intent = new Intent(context, viewWorkout.class);
+        Intent intent = new Intent(context, Crunches.class);
         intent.putExtra("Exercise", workout);
         startActivity(intent);
     }
 
     private void glimpseSitup(Context context, String workout) {
-        Intent intent = new Intent(context, viewWorkout.class);
+        Intent intent = new Intent(context, Crunches.class);
         intent.putExtra("Exercise", workout);
         startActivity(intent);
     }
 
     private void glimpseLsit(Context context, String workout) {
-        Intent intent = new Intent(context, viewWorkout.class);
+        Intent intent = new Intent(context, Crunches.class);
         intent.putExtra("Exercise", workout);
         startActivity(intent);
     }
 
     private void glimpseRussiantwist(Context context, String workout) {
-        Intent intent = new Intent(context, viewWorkout.class);
+        Intent intent = new Intent(context, Crunches.class);
         intent.putExtra("Exercise", workout);
         startActivity(intent);
     }

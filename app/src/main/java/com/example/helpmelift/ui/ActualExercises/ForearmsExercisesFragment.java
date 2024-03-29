@@ -13,7 +13,6 @@ import androidx.fragment.app.Fragment;
 
 import com.example.helpmelift.R;
 import com.example.helpmelift.databinding.FragmentForearmsExercisesBinding;
-import com.example.helpmelift.viewWorkout;
 
 public class ForearmsExercisesFragment extends Fragment {
 
