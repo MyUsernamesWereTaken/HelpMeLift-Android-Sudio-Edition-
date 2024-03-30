@@ -8,6 +8,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+
+
+import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
 
@@ -33,7 +36,7 @@ public class MuscleGroupsFragment extends Fragment {
 
     private FragmentMusclegroupsBinding binding;
 
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+    public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         binding = FragmentMusclegroupsBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
@@ -51,18 +54,18 @@ public class MuscleGroupsFragment extends Fragment {
         Button calves_butt = root.findViewById(R.id.Calves);
         Button forearms_butt = root.findViewById(R.id.Forearms);
 
-        delt_butt.setOnClickListener(v1 -> viewDelts(requireContext(), "Deltoids/Shoulders"));
-        bicep_butt.setOnClickListener(v2 -> viewBiceps(requireContext(), "Biceps"));
-        tricep_butt.setOnClickListener(v3 -> viewTriceps(requireContext(), "Triceps"));
-        abs_butt.setOnClickListener(v4 -> viewAbs(requireContext(), "Abs"));
-        traps_butt.setOnClickListener(v5 -> viewTraps(requireContext(), "Trapezius"));
-        lats_butt.setOnClickListener(v6 -> viewLats(requireContext(), "Latissimus Dorsi"));
-        lowerback_butt.setOnClickListener(v7 -> viewLowerBack(requireContext(), "Lower Back"));
-        glute_butt.setOnClickListener(v8 -> viewGlutes(requireContext(), "Glutes"));
-        quads_butt.setOnClickListener(v9 -> viewQuads(requireContext(), "Quadriceps"));
-        hamstring_butt.setOnClickListener(v10 -> viewHamstring(requireContext(), "Hamstrings"));
-        calves_butt.setOnClickListener(v11 -> viewCalves(requireContext(), "Calves"));
-        forearms_butt.setOnClickListener(v12 -> viewForearms(requireContext(), "Forearms"));
+        delt_butt.setOnClickListener(v1 -> viewDelts(requireContext()));
+        bicep_butt.setOnClickListener(v2 -> viewBiceps(requireContext()));
+        tricep_butt.setOnClickListener(v3 -> viewTriceps(requireContext()));
+        abs_butt.setOnClickListener(v4 -> viewAbs(requireContext()));
+        traps_butt.setOnClickListener(v5 -> viewTraps(requireContext()));
+        lats_butt.setOnClickListener(v6 -> viewLats(requireContext()));
+        lowerback_butt.setOnClickListener(v7 -> viewLowerBack(requireContext()));
+        glute_butt.setOnClickListener(v8 -> viewGlutes(requireContext()));
+        quads_butt.setOnClickListener(v9 -> viewQuads(requireContext()));
+        hamstring_butt.setOnClickListener(v10 -> viewHamstring(requireContext()));
+        calves_butt.setOnClickListener(v11 -> viewCalves(requireContext()));
+        forearms_butt.setOnClickListener(v12 -> viewForearms(requireContext()));
 
         return root;
     }
@@ -73,64 +76,64 @@ public class MuscleGroupsFragment extends Fragment {
         binding = null;
     }
 
-    private void viewDelts(Context context, String muscle) {
+    private void viewDelts(Context context) {
         Intent intent = new Intent(context, DeltMuscle.class);
-        intent.putExtra("Muscle", muscle);
+        intent.putExtra("Muscle", "Deltoids/Shoulders");
         startActivity(intent);
     }
-    private void viewBiceps(Context context, String muscle) {
+    private void viewBiceps(Context context) {
         Intent intent = new Intent(context, BicepMuscle.class);
-        intent.putExtra("Muscle", muscle);
+        intent.putExtra("Muscle", "Biceps");
         startActivity(intent);
     }
-    private void viewTriceps(Context context, String muscle) {
+    private void viewTriceps(Context context) {
         Intent intent = new Intent(context, TricepMuscle.class);
-        intent.putExtra("Muscle", muscle);
+        intent.putExtra("Muscle", "Triceps");
         startActivity(intent);
     }
-    private void viewAbs(Context context, String muscle) {
+    private void viewAbs(Context context) {
         Intent intent = new Intent(context, AbsMuscle.class);
-        intent.putExtra("Muscle", muscle);
+        intent.putExtra("Muscle", "Abs");
         startActivity(intent);
     }
-    private void viewTraps(Context context, String muscle) {
+    private void viewTraps(Context context) {
         Intent intent = new Intent(context, TrapsMuscle.class);
-        intent.putExtra("Muscle", muscle);
+        intent.putExtra("Muscle", "Trapezius");
         startActivity(intent);
     }
-    private void viewLats(Context context, String muscle) {
+    private void viewLats(Context context) {
         Intent intent = new Intent(context, LatsMuscle.class);
-        intent.putExtra("Muscle", muscle);
+        intent.putExtra("Muscle", "Latissimus Dorsi");
         startActivity(intent);
     }
-    private void viewLowerBack(Context context, String muscle) {
+    private void viewLowerBack(Context context) {
         Intent intent = new Intent(context, LowerBackMuscle.class);
-        intent.putExtra("Muscle", muscle);
+        intent.putExtra("Muscle", "Lower Back");
         startActivity(intent);
     }
-    private void viewGlutes(Context context, String muscle) {
+    private void viewGlutes(Context context) {
         Intent intent = new Intent(context, GlutesMuscle.class);
-        intent.putExtra("Muscle", muscle);
+        intent.putExtra("Muscle", "Glutes");
         startActivity(intent);
     }
-    private void viewQuads(Context context, String muscle) {
+    private void viewQuads(Context context) {
         Intent intent = new Intent(context, QuadsMuscle.class);
-        intent.putExtra("Muscle", muscle);
+        intent.putExtra("Muscle", "Quadriceps");
         startActivity(intent);
     }
-    private void viewHamstring(Context context, String muscle) {
+    private void viewHamstring(Context context) {
         Intent intent = new Intent(context, HamstringMuscle.class);
-        intent.putExtra("Muscle", muscle);
+        intent.putExtra("Muscle", "Hamstrings");
         startActivity(intent);
     }
-    private void viewCalves(Context context, String muscle) {
+    private void viewCalves(Context context) {
         Intent intent = new Intent(context, CalvesMuscle.class);
-        intent.putExtra("Muscle", muscle);
+        intent.putExtra("Muscle", "Calves");
         startActivity(intent);
     }
-    private void viewForearms(Context context, String muscle) {
+    private void viewForearms(Context context) {
         Intent intent = new Intent(context, ForearmsMuscle.class);
-        intent.putExtra("Muscle", muscle);
+        intent.putExtra("Muscle", "Forearms");
         startActivity(intent);
     }
 

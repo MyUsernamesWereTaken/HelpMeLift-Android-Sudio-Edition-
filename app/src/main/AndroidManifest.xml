@@ -13,8 +13,17 @@
         android:theme="@style/Theme.HelpMeLift"
         tools:targetApi="31">
         <activity
-            android:name=".Crunches"
-            android:exported="false" />
+            android:name=".ui.AbsWorkout.russiantwist"
+            android:exported="true" />
+        <activity
+            android:name=".ui.AbsWorkout.lsit"
+            android:exported="true" />
+        <activity
+            android:name=".ui.AbsWorkout.situps"
+            android:exported="true" />
+        <activity
+            android:name=".ui.AbsWorkout.crunch"
+            android:exported="true" />
         <activity
             android:name=".AbsMuscle"
             android:exported="true" />

@@ -10,31 +10,32 @@ import android.widget.Button;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
-
 import com.example.helpmelift.R;
 import com.example.helpmelift.databinding.FragmentAbsExercisesBinding;
-import com.example.helpmelift.Crunches;
 
+import com.example.helpmelift.ui.AbsWorkout.crunch;
+import com.example.helpmelift.ui.AbsWorkout.lsit;
+import com.example.helpmelift.ui.AbsWorkout.russiantwist;
+import com.example.helpmelift.ui.AbsWorkout.situps;
 
 public class AbsExercisesFragment extends Fragment {
 
     private FragmentAbsExercisesBinding binding;
-    private boolean DeltsChosen = false;
 
-    public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState, String muscle) {
+    public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
         binding = FragmentAbsExercisesBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        Button crunchesButton = root.findViewById(R.id.Crunches);
+        Button crunch_butt = root.findViewById(R.id.Crunches);
         Button situpButton = root.findViewById(R.id.Situp);
         Button lsitButton = root.findViewById(R.id.Lsit);
         Button russiantwistsButton = root.findViewById(R.id.RussianTwists);
 
-        crunchesButton.setOnClickListener(v1 -> glimpseCrunches(requireContext(), "Crunches"));
-        situpButton.setOnClickListener(v2 -> glimpseSitup(requireContext(), "Sit-up"));
-        lsitButton.setOnClickListener(v3 -> glimpseLsit(requireContext(), "L-sit"));
-        russiantwistsButton.setOnClickListener(v4 -> glimpseRussiantwist(requireContext(), "Russian Twist"));
+        crunch_butt.setOnClickListener(v1 -> glimpseCrunches(requireContext()));
+        situpButton.setOnClickListener(v2 -> glimpseSitup(requireContext()));
+        lsitButton.setOnClickListener(v3 -> glimpseLsit(requireContext()));
+        russiantwistsButton.setOnClickListener(v4 -> glimpseRussiantwist(requireContext()));
 
         return root;
     }
@@ -45,28 +46,28 @@ public class AbsExercisesFragment extends Fragment {
         binding = null;
     }
 
-    private void glimpseCrunches(Context context, String workout) {
-        Intent intent = new Intent(context, Crunches.class);
-        intent.putExtra("Exercise", workout);
+    public void glimpseCrunches(Context context) {
+        Intent intent = new Intent(context, crunch.class);
+        intent.putExtra("Exercise", "Crunches");
+        startActivity(intent);
+
+    }
+
+    public void glimpseSitup(Context context) {
+        Intent intent = new Intent(context, situps.class);
+        intent.putExtra("Exercise", "Sit-up");
         startActivity(intent);
     }
-//
-    private void glimpseSitup(Context context, String workout) {
-//        Intent intent = new Intent(context, Crunches.class);
-//        intent.putExtra("Exercise", workout);
-//        startActivity(intent);
-    }
-//
-    private void glimpseLsit(Context context, String workout) {
-//        Intent intent = new Intent(context, Crunches.class);
-//        intent.putExtra("Exercise", workout);
-//        startActivity(intent);
+    public void glimpseLsit(Context context) {
+        Intent intent = new Intent(context, lsit.class);
+        intent.putExtra("Exercise", "L-sit");
+        startActivity(intent);
    }
-//
-    private void glimpseRussiantwist(Context context, String workout) {
-//        Intent intent = new Intent(context, Crunches.class);
-//        intent.putExtra("Exercise", workout);
-//        startActivity(intent);
+
+    public void glimpseRussiantwist(Context context) {
+        Intent intent = new Intent(context, russiantwist.class);
+        intent.putExtra("Exercise", "Russian Twists");
+        startActivity(intent);
     }
 
 }

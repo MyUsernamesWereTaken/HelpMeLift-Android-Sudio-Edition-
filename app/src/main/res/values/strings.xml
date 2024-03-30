@@ -25,113 +25,113 @@
     <string name="title_activity_muscle_exercises">MuscleExercises</string>
 
     <!-- Workout for Abs !-->
-        <!--Abs!-->
-            <string name="Crunches">Crunches</string>
-            <string name="Situp">Sit-ups</string>
-            <string name="Lsit">L-sit</string>
-        <!--Obliques!-->
-            <string name="RussianTwists">Russian Twists</string>
+    <!--Abs!-->
+    <string name="Crunches">Crunches</string>
+    <string name="Situp">Sit-ups</string>
+    <string name="Lsit">L-sit</string>
+    <!--Obliques!-->
+    <string name="RussianTwists">Russian Twists</string>
 
     <!--Workout for Biceps!-->
-        <!--Short head (Inner bicep)!-->
-            <string name="Standing_Bicep_Curl_Dumbbell">Standing Bicep Curl (Dumbbell)</string>
-            <string name="Standing_Bicep_Curl_Barbell">Standing Bicep Curl (Barbell)</string>
-            <string name="Incline_Bicep_Curl">Incline Bicep Curl</string>
-        <!--Long head (Outer bicep)!-->
-            <string name="Waiter_Curls">Waiter Curls</string>
+    <!--Short head (Inner bicep)!-->
+    <string name="Standing_Bicep_Curl_Dumbbell">Standing Bicep Curl (Dumbbell)</string>
+    <string name="Standing_Bicep_Curl_Barbell">Standing Bicep Curl (Barbell)</string>
+    <string name="Incline_Bicep_Curl">Incline Bicep Curl</string>
+    <!--Long head (Outer bicep)!-->
+    <string name="Waiter_Curls">Waiter Curls</string>
 
     <!--Workout for Calves!-->
-        <!--Standing!-->
-            <string name="StandingCalfRaises">Standing Calf Raises</string>
-            <string name="SingleStandingCalfRaises">Single Standing Calf Raises</string>
-        <!--Sitting!-->
-            <string name="Donkey_Raises">Donkey Raises</string>
-            <string name="Box_Jump">Box Jump</string>
+    <!--Standing!-->
+    <string name="StandingCalfRaises">Standing Calf Raises</string>
+    <string name="SingleStandingCalfRaises">Single Standing Calf Raises</string>
+    <!--Sitting!-->
+    <string name="Donkey_Raises">Donkey Raises</string>
+    <string name="Box_Jump">Box Jump</string>
 
     <!--Workout for Delts!-->
-        <!-- Workouts for Front Delts !-->
-            <string name="OverheadPress">Overhead Press</string>
-            <string name="DumbbellShoulderPress">Dumbbell Shoulder Press</string>
-        <!-- Workouts For Mid Delts !-->
-            <string name="LateralRaises">Lateral Raises</string>
-        <!--Workout for Rear Delts !-->
-            <string name="BentOverRearDeltFlys">Bent Over Rear Delt Flys </string>
+    <!-- Workouts for Front Delts !-->
+    <string name="OverheadPress">Overhead Press</string>
+    <string name="DumbbellShoulderPress">Dumbbell Shoulder Press</string>
+    <!-- Workouts For Mid Delts !-->
+    <string name="LateralRaises">Lateral Raises</string>
+    <!--Workout for Rear Delts !-->
+    <string name="BentOverRearDeltFlys">Bent Over Rear Delt Flys </string>
 
     <!--Workout for Forearms!-->
-        <!--Dumbbells!-->
-            <string name="Hammer_Curls">Hammer Curls</string>
-            <string name="Forearm_Curls_Db">Forearm Curls (Dumbbells)</string>
-            <string name="Farmer_Carries">Farmer Carries</string>
-        <!--Cables!-->
-            <string name="Forearm_Curls_Cable">Forearm Curls (Cables)</string>
+    <!--Dumbbells!-->
+    <string name="Hammer_Curls">Hammer Curls</string>
+    <string name="Forearm_Curls_Db">Forearm Curls (Dumbbells)</string>
+    <string name="Farmer_Carries">Farmer Carries</string>
+    <!--Cables!-->
+    <string name="Forearm_Curls_Cable">Forearm Curls (Cables)</string>
 
     <!--Workout for Glutes!-->
-        <!--Barbell!-->
-            <string name="Hip_Thrust">Hip Thrust</string>
-        <!--Dumbbell!-->
-            <string name="Glute_Bridge">Glute Bridge</string>
-        <!--Machine!-->
-            <string name="Hip_Abduction_Machine">Hip Abduction (Machine)</string>
-            <string name="Hip_Adduction_Machine">Hip Adduction (Machine)</string>
+    <!--Barbell!-->
+    <string name="Hip_Thrust">Hip Thrust</string>
+    <!--Dumbbell!-->
+    <string name="Glute_Bridge">Glute Bridge</string>
+    <!--Machine!-->
+    <string name="Hip_Abduction_Machine">Hip Abduction (Machine)</string>
+    <string name="Hip_Adduction_Machine">Hip Adduction (Machine)</string>
 
     <!--Workout for Hamstrings!-->
-        <!--Barbell!-->
-            <string name="Romanian_Deadlift_Barbell">Romanian Deadlift (Barbell)</string>
-            <string name="Deadlift">Deadlifts(Any Variation)</string>
-        <!--Dumbbell!-->
-            <string name="Romanian_Deadlift_Dumbbell">Romanian Deadlift (Dumbbell)</string>
-        <!--Machine!-->
-            <string name="Lying_Leg_Curl">Lying Leg Curls</string>
-            <string name="Seated_Leg_Curl">Seated Leg Curls</string>
+    <!--Barbell!-->
+    <string name="Romanian_Deadlift_Barbell">Romanian Deadlift (Barbell)</string>
+    <string name="Deadlift">Deadlifts(Any Variation)</string>
+    <!--Dumbbell!-->
+    <string name="Romanian_Deadlift_Dumbbell">Romanian Deadlift (Dumbbell)</string>
+    <!--Machine!-->
+    <string name="Lying_Leg_Curl">Lying Leg Curls</string>
+    <string name="Seated_Leg_Curl">Seated Leg Curls</string>
 
     <!--Workout for Lats!-->
-        <!--Barbell!-->
-            <string name="Pendlay_Row">Pendlay Rows</string>
-            <string name="Chest_Supported_Rows_Barbell">Chest Supported Rows (Barbell)</string>
-        <!--Dumbbell!-->
-            <string name="Chest_Supported_Rows_Db">Chest Supported Rows (Dumbbell)</string>
-        <!--Cables!-->
-            <string name="Cable_Rows">Cable Rows</string>
-        <!--Machine!-->
-            <string name="Lat_Pulldown">Lat Pulldowns</string>
+    <!--Barbell!-->
+    <string name="Pendlay_Row">Pendlay Rows</string>
+    <string name="Chest_Supported_Rows_Barbell">Chest Supported Rows (Barbell)</string>
+    <!--Dumbbell!-->
+    <string name="Chest_Supported_Rows_Db">Chest Supported Rows (Dumbbell)</string>
+    <!--Cables!-->
+    <string name="Cable_Rows">Cable Rows</string>
+    <!--Machine!-->
+    <string name="Lat_Pulldown">Lat Pulldowns</string>
 
     <!--Workout for Lower Back!-->
-        <!--Barbell!-->
-            <string name="Good_Mornings"> Good Mornings</string>
-        <!--Dumbbell!-->
-            <string name="Kettlebell_Swings"> Kettlebell Swings</string>
-        <!--Cables!-->
+    <!--Barbell!-->
+    <string name="Good_Mornings"> Good Mornings</string>
+    <!--Dumbbell!-->
+    <string name="Kettlebell_Swings"> Kettlebell Swings</string>
+    <!--Cables!-->
 
-        <!--Machine!-->
-            <string name="Prisoner_Back_Extensions">Prisoner Back Extensions</string>
+    <!--Machine!-->
+    <string name="Prisoner_Back_Extensions">Prisoner Back Extensions</string>
 
     <!--Workout for Quads!-->
-        <!--Barbell!-->
-            <string name="Back_Squats">Back Squats</string>
-        <!--Dumbbell!-->
-        <!--Machine!-->
-            <string name="Leg_Press">Leg Press</string>
-            <string name="Leg_Extensions">Leg Extensions</string>
-            <string name="Hack_Squats">Hack Squats</string>
+    <!--Barbell!-->
+    <string name="Back_Squats">Back Squats</string>
+    <!--Dumbbell!-->
+    <!--Machine!-->
+    <string name="Leg_Press">Leg Press</string>
+    <string name="Leg_Extensions">Leg Extensions</string>
+    <string name="Hack_Squats">Hack Squats</string>
 
     <!--Workout for Traps!-->
-        <!--Barbell!-->
-            <string name="Upright_Row">Upright Row</string>
-        <!--Dumbbell!-->
-            <string name="Dumbbell_Shrugs">Dumbbell Shrugs</string>
-            <string name="Chest_Supported_Rows">Chest Supported Rows</string>
-        <!--Machine!-->
+    <!--Barbell!-->
+    <string name="Upright_Row">Upright Row</string>
+    <!--Dumbbell!-->
+    <string name="Dumbbell_Shrugs">Dumbbell Shrugs</string>
+    <string name="Chest_Supported_Rows">Chest Supported Rows</string>
+    <!--Machine!-->
 
-        <!--Cables!-->
-            <string name="Face_Pulls">Face Pulls</string>
+    <!--Cables!-->
+    <string name="Face_Pulls">Face Pulls</string>
 
     <!--Workout for Triceps!-->
-        <!--Barbell!-->
-            <string name="SkullCrushers">Skull Crushers</string>
-        <!--Dumbbell!-->
-        <!--Machine!-->
-        <!--Cables!-->
-            <string name="Tricep_Kickback">Tricep Kickbacks</string>
-            <string name="Overhead_Tricep_Extensions">Overhead Tricep Extension</string>
-            <string name="Tricep_Pushdown">Tricep Pushdown</string>
+    <!--Barbell!-->
+    <string name="SkullCrushers">Skull Crushers</string>
+    <!--Dumbbell!-->
+    <!--Machine!-->
+    <!--Cables!-->
+    <string name="Tricep_Kickback">Tricep Kickbacks</string>
+    <string name="Overhead_Tricep_Extensions">Overhead Tricep Extension</string>
+    <string name="Tricep_Pushdown">Tricep Pushdown</string>
 </resources>

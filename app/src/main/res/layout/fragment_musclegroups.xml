@@ -37,7 +37,6 @@
                     android:layout_marginEnd="8dp"
                     android:layout_weight="1"
                     android:backgroundTint="#A42A04"
-                    android:onClick="viewExercises"
                     android:text="@string/delts"
                     android:textColor="#000000"
                     tools:ignore="VisualLintButtonSize,TextContrastCheck" />
@@ -49,7 +48,6 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:backgroundTint="#A42A04"
-                    android:onClick="viewExercises"
                     android:text="@string/biceps"
                     android:textColor="#000000"
                     tools:ignore="VisualLintButtonSize,TextContrastCheck" />
@@ -69,7 +67,6 @@
                     android:layout_marginEnd="8dp"
                     android:layout_weight="1"
                     android:backgroundTint="#A42A04"
-                    android:onClick="viewExercises"
                     android:text="@string/triceps"
                     android:textColor="#000000"
                     tools:ignore="VisualLintButtonSize,TextContrastCheck" />
@@ -81,7 +78,6 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:backgroundTint="#A42A04"
-                    android:onClick="viewExercises"
                     android:text="@string/abs"
                     android:textColor="#000000"
                     tools:ignore="VisualLintButtonSize,TextContrastCheck" />
@@ -101,7 +97,6 @@
                     android:layout_marginEnd="8dp"
                     android:layout_weight="1"
                     android:backgroundTint="#A42A04"
-                    android:onClick="viewExercises"
                     android:text="@string/traps"
                     android:textColor="#000000"
                     tools:ignore="VisualLintButtonSize,TextContrastCheck" />
@@ -113,7 +108,6 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:backgroundTint="#A42A04"
-                    android:onClick="viewExercises"
                     android:text="@string/lats"
                     android:textColor="#000000"
                     tools:ignore="VisualLintButtonSize,TextContrastCheck" />
@@ -133,7 +127,6 @@
                     android:layout_marginEnd="8dp"
                     android:layout_weight="1"
                     android:backgroundTint="#A42A04"
-                    android:onClick="viewExercises"
                     android:text="@string/lower_back"
                     android:textColor="#000000"
                     tools:ignore="VisualLintButtonSize,TextContrastCheck" />
@@ -145,7 +138,6 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:backgroundTint="#A42A04"
-                    android:onClick="viewExercises"
                     android:text="@string/glutes"
                     android:textColor="#000000"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -167,7 +159,6 @@
                     android:layout_marginEnd="8dp"
                     android:layout_weight="1"
                     android:backgroundTint="#A42A04"
-                    android:onClick="viewExercises"
                     android:text="@string/quads"
                     android:textColor="#000000"
                     app:layout_constraintStart_toStartOf="parent"
@@ -181,7 +172,6 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:backgroundTint="#A42A04"
-                    android:onClick="viewExercises"
                     android:text="@string/hamstring"
                     android:textColor="#000000"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -203,7 +193,6 @@
                     android:layout_marginEnd="8dp"
                     android:layout_weight="1"
                     android:backgroundTint="#A42A04"
-                    android:onClick="viewExercises"
                     android:text="@string/calves"
                     android:textColor="#000000"
                     app:layout_constraintStart_toStartOf="parent"
@@ -217,7 +206,6 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:backgroundTint="#A42A04"
-                    android:onClick="viewExercises"
                     android:text="@string/forearms"
                     android:textColor="#000000"
                     app:layout_constraintEnd_toEndOf="parent"
