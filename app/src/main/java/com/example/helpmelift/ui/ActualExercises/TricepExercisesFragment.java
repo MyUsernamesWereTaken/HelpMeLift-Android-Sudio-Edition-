@@ -43,9 +43,9 @@ public class TricepExercisesFragment extends Fragment {
     }
 
     private void glimpseworkout(Context context, String workout) {
-        Intent intent = new Intent(context, viewWorkout.class);
-        intent.putExtra("Exercise", workout);
-        startActivity(intent);
+//        Intent intent = new Intent(context, .class);
+//        intent.putExtra("Exercise", workout);
+//        startActivity(intent);
     }
 
 }

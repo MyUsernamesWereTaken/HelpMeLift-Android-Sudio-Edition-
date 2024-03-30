@@ -13,11 +13,11 @@
         android:theme="@style/Theme.HelpMeLift"
         tools:targetApi="31">
         <activity
-            android:name=".viewWorkout"
+            android:name=".Crunches"
             android:exported="false" />
         <activity
             android:name=".AbsMuscle"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".BicepMuscle"
             android:exported="false" />

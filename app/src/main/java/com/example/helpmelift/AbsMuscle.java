@@ -10,7 +10,7 @@ import com.example.helpmelift.databinding.ActivityAbsMusclesBinding;
 public class AbsMuscle extends AppCompatActivity {
 
     private ActivityAbsMusclesBinding binding;
-    private String muscleSelected;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,7 +18,6 @@ public class AbsMuscle extends AppCompatActivity {
         setContentView(R.layout.activity_abs_muscles);
 
         String muscleSelection = getIntent().getStringExtra("Muscle");
-        this.muscleSelected = muscleSelection;
         ((TextView)findViewById(R.id.muscleSelected)).setText(muscleSelection);
 
     }
