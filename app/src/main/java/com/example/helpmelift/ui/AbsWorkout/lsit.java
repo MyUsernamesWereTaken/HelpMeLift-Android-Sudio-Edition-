@@ -17,7 +17,7 @@ public class lsit extends AppCompatActivity {
         setContentView(R.layout.activity_abs_lsit);
 
         String exercise = getIntent().getStringExtra("Exercise");
-        ((TextView)findViewById(R.id.exercise)).setText(exercise);
+        ((TextView)findViewById(R.id.exercises)).setText(exercise);
 
         MediaController mediaController = new MediaController(this);
         VideoView lsit_video= (VideoView) findViewById(R.id.lsitvid);
