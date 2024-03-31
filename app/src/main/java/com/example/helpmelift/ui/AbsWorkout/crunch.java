@@ -2,7 +2,6 @@ package com.example.helpmelift.ui.AbsWorkout;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.widget.MediaController;
 import android.widget.TextView;
@@ -22,7 +21,7 @@ public class crunch extends AppCompatActivity {
 
         MediaController mediaController = new MediaController(this);
         VideoView crunch_video= (VideoView) findViewById(R.id.crunchesvid);
-        crunch_video.setVideoPath("android.resource://" + getPackageName() + "/" + R.raw.crunches);
+        crunch_video.setVideoPath("android.resource://" + getPackageName() + "/" + R.raw.ab_crunches);
 
         mediaController.setAnchorView(crunch_video);
         crunch_video.setMediaController(mediaController);

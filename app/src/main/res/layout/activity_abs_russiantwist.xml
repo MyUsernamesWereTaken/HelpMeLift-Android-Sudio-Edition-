@@ -6,4 +6,23 @@
     android:layout_height="match_parent"
     tools:context=".ui.AbsWorkout.russiantwist">
 
+    <TextView
+        android:id="@+id/exercise"
+        android:layout_width="125dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/RussianTwists"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <VideoView
+        android:id="@+id/russiantwistvid"
+        android:layout_width="358dp"
+        android:layout_height="251dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/exercise" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
