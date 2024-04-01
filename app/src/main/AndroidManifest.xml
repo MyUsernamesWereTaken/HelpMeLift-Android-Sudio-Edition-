@@ -13,6 +13,18 @@
         android:theme="@style/Theme.HelpMeLift"
         tools:targetApi="31">
         <activity
+            android:name=".ui.BicepWorkout.Waiter_Curl"
+            android:exported="true" />
+        <activity
+            android:name=".ui.BicepWorkout.Incline_Bicep_Curl"
+            android:exported="true" />
+        <activity
+            android:name=".ui.BicepWorkout.Standing_Bicep_Curl_db"
+            android:exported="true" />
+        <activity
+            android:name=".ui.BicepWorkout.Standing_Bicep_Curl_bb"
+            android:exported="true" />
+        <activity
             android:name=".ui.AbsWorkout.russiantwist"
             android:exported="true" />
         <activity
@@ -29,37 +41,37 @@
             android:exported="true" />
         <activity
             android:name=".BicepMuscle"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".CalvesMuscle"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".DeltMuscle"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".ForearmsMuscle"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".GlutesMuscle"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".HamstringMuscle"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".LatsMuscle"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".LowerBackMuscle"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".QuadsMuscle"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".TrapsMuscle"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".TricepMuscle"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true"

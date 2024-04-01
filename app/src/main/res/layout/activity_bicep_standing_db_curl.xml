@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.BicepWorkout.Standing_Bicep_Curl_db">
+
+    <TextView
+        android:id="@+id/exercises"
+        android:layout_width="230dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/Standing_Bicep_Curl_Dumbbell"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <VideoView
+        android:id="@+id/Standing_Bicep_Curl_Dumbbell_Vid"
+        android:layout_width="357dp"
+        android:layout_height="255dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/exercises" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="352dp"
+        android:layout_height="119dp"
+        android:layout_marginTop="12dp"
+        android:text="Setup:
+        \n- Stand with your feet shoulder-width apart, keeping your spine straight and your core engaged.
+        \n- Hold a dumbbell in each hand, with your arms fully extended down by your sides and palms facing forward.
+        \n- Let your arms hang naturally, with the dumbbells at arm's length."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Standing_Bicep_Curl_Dumbbell_Vid" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="351dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="4dp"
+        android:text="Starting Position:
+        \n- Keep your elbows close to your sides, avoiding excessive flaring out.
+        \n- Relax your shoulders, and ensure your wrists are straight, not bent."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="354dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="4dp"
+        android:text="Maintain Proper Form:
+        \n- Keep your wrists straight throughout the movement, avoiding excessive bending or twisting.
+        \n- Focus on moving only your forearm, with minimal involvement of the shoulders or back.
+        \n- Keep your core engaged and avoid arching your lower back."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
