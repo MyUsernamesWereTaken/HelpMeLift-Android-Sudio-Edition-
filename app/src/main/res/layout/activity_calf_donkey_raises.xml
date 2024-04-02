@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.CalvesWorkout.Donkey_Raises">
+
+    <TextView
+        android:id="@+id/exercises"
+        android:layout_width="230dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="6dp"
+        android:text="@string/Donkey_Raises"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <VideoView
+        android:id="@+id/Donkey_Raises_Vid"
+        android:layout_width="357dp"
+        android:layout_height="255dp"
+        android:layout_marginTop="6dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/exercises" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="348dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="6dp"
+        android:text="Setup:
+        \n- Stand on a raised platform, such as a calf raise machine or sturdy block, approximately 2 to 3 feet high.
+        \n- Place your hands on a stable support structure, such as a railing, wall, or the back of a chair, to maintain balance during the exercise.
+        \n- Stand at the edge of the platform your heels hanging off, allowing your heels to move freely (most of the platform should be in front of you)."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Donkey_Raises_Vid" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="351dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="4dp"
+        android:text="Starting Position:
+        \n- Keep your feet hip-width apart and parallel to each other, with your toes pointing forward.
+        \n- Maintain a straight posture, engage your core muscles.
+        \n- Relax your shoulders and keep your chest up."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="354dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="4dp"
+        android:text="Maintain Proper Form:
+        \n- Control the descent so you go downwards slowly.
+        \n- Hold it your position at the bottom for maximum stretch and the same at the top.
+        \n- Push upwards with your calves to get to the top and repeat."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

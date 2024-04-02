@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.CalvesWorkout.Standing_Calf_Raises">
+
+    <TextView
+        android:id="@+id/exercises"
+        android:layout_width="230dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/StandingCalfRaises"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <VideoView
+        android:id="@+id/Standing_Calf_Raises_Vid"
+        android:layout_width="357dp"
+        android:layout_height="255dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/exercises" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="354dp"
+        android:layout_height="142dp"
+        android:layout_marginTop="10dp"
+        android:text="Setup:
+        \n- Adjust the height of the Smith machine bar to a level that allows you to reach it while standing on one leg.
+        \n- Position yourself facing the Smith machine with your back straight and your feet hip-width apart.
+        \n- Place both foot flat on an elevated platform several inches off the floor with your heel handing off it, slightly in front of the bar."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Standing_Calf_Raises_Vid" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="354dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="4dp"
+        android:text="Lowering Phase:
+        \n- Slowly lower your heels towards the ground, allowing your calves to stretch fully.
+        \n- Maintain control and stability throughout the lowering phase, avoiding sudden movements or jerking motions."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="354dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="4dp"
+        android:text="Lifting Phase:
+        \n- Raise your heels upward, lifting your body as high as possible.
+        \n- Focus on squeezing your calves at the top to maximize muscle engagement."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
