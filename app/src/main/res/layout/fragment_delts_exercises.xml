@@ -8,8 +8,6 @@
     tools:context=".ui.zActualExercises.DeltsExercisesFragment">
     <!--tools:context=".ui.MuscleGroups.MuscleGroupsFragment"!-->
 
-
-
     <ScrollView
         android:layout_width="409dp"
         android:layout_height="729dp"

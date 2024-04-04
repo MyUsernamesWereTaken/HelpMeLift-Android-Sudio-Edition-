@@ -13,6 +13,12 @@
         android:theme="@style/Theme.HelpMeLift"
         tools:targetApi="31">
         <activity
+            android:name=".ui.DeltWorkout.Overhead_Press"
+            android:exported="false" />
+        <activity
+            android:name=".ui.CalvesWorkout.Standing_Calf_Raises"
+            android:exported="false" />
+        <activity
             android:name=".ui.CalvesWorkout.Box_Jump"
             android:exported="true" />
         <activity
@@ -20,9 +26,6 @@
             android:exported="true" />
         <activity
             android:name=".ui.CalvesWorkout.Single_Leg_Standing_Calf_Raise"
-            android:exported="true" />
-        <activity
-            android:name=".ui.CalvesWorkout.Standing_Calf_Raises"
             android:exported="true" />
         <activity
             android:name=".ui.BicepWorkout.Waiter_Curl"
