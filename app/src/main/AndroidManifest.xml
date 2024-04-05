@@ -13,11 +13,20 @@
         android:theme="@style/Theme.HelpMeLift"
         tools:targetApi="31">
         <activity
+            android:name=".ui.DeltWorkout.Bent_Over_Rear_Delt_Flys"
+            android:exported="true" />
+        <activity
+            android:name=".ui.DeltWorkout.Lateral_Raises"
+            android:exported="true" />
+        <activity
+            android:name=".ui.DeltWorkout.Dumbbell_Shoulder_Press"
+            android:exported="true" />
+        <activity
             android:name=".ui.DeltWorkout.Overhead_Press"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".ui.CalvesWorkout.Standing_Calf_Raises"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".ui.CalvesWorkout.Box_Jump"
             android:exported="true" />
@@ -89,8 +98,7 @@
             android:exported="true" />
         <activity
             android:name=".MainActivity"
-            android:exported="true"
-            android:label="@string/app_name">
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
