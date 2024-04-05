@@ -20,12 +20,12 @@ public class Lateral_Raises extends AppCompatActivity {
         ((TextView)findViewById(R.id.exercises)).setText(exercise);
 
         MediaController mediaController = new MediaController(this);
-        VideoView crunch_video= (VideoView) findViewById(R.id.LateralRaisesvid);
-        //crunch_video.setVideoPath("android.resource://" + getPackageName() + "/" + R.raw.delt_db_shoulder_press);
+        VideoView lateralRaises_video= (VideoView) findViewById(R.id.LateralRaisesvid);
+        lateralRaises_video.setVideoPath("android.resource://" + getPackageName() + "/" + R.raw.delt_lateral_raises);
 
-        mediaController.setAnchorView(crunch_video);
-        crunch_video.setMediaController(mediaController);
+        mediaController.setAnchorView(lateralRaises_video);
+        lateralRaises_video.setMediaController(mediaController);
 
-        crunch_video.start();
+        lateralRaises_video.start();
     }
 }

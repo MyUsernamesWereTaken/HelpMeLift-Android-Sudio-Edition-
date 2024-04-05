@@ -21,7 +21,7 @@ public class Bent_Over_Rear_Delt_Flys extends AppCompatActivity {
 
         MediaController mediaController = new MediaController(this);
         VideoView crunch_video= (VideoView) findViewById(R.id.BentOverRearDeltFlys);
-        //crunch_video.setVideoPath("android.resource://" + getPackageName() + "/" + R.raw.delt_db_shoulder_press);
+        crunch_video.setVideoPath("android.resource://" + getPackageName() + "/" + R.raw.delt_bent_over_rear_delt_flys);
 
         mediaController.setAnchorView(crunch_video);
         crunch_video.setMediaController(mediaController);
