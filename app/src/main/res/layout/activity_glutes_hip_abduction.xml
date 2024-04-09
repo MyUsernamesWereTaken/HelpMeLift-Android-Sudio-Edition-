@@ -12,7 +12,7 @@
         android:layout_height="24dp"
         android:layout_marginStart="116dp"
         android:layout_marginTop="4dp"
-        android:text="@string/Lsit"
+        android:text="@string/Hip_Abduction_Machine"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -43,12 +43,13 @@
     <TextView
         android:id="@+id/textView3"
         android:layout_width="354dp"
-        android:layout_height="87dp"
+        android:layout_height="102dp"
         android:layout_marginTop="4dp"
-        android:text="Starting Position:
-        \n- Sit on the floor with your legs extended in front of you.
-        \n- Place your hands on the ground beside your hips, fingers pointing forward.
-        \n- Keep your arms straight, shoulders down, and engage your core muscles."
+        android:text="Abduct:
+        \n- Lift your top leg away from your body, focusing on using the muscles on the side of your hip (abductors) to perform the movement.
+        \n- Keep your foot flexed and your toes pointing forward throughout the exercise.
+        \nHold:
+        \n- Pause briefly at the top of the movement to fully engage your hip abductors."
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.521"
         app:layout_constraintStart_toStartOf="parent"
@@ -57,12 +58,13 @@
     <TextView
         android:id="@+id/textView4"
         android:layout_width="354dp"
-        android:layout_height="104dp"
+        android:layout_height="158dp"
         android:layout_marginTop="4dp"
-        android:text="Lift Your Body:
-        \n- Press down through your hands and engage your core muscles.
-        \n- Lift your hips off the ground, aiming to bring your legs parallel to the floor.
-        \n -Keep your legs straight and toes pointed."
+        android:text="Lower Down:
+        \n- Slowly lower your top leg back down to the starting position under control, avoid completely resting it on your bottom leg to keep tension.
+        \nSafety Considerations:
+        \n- Keep your torso stable throughout the exercise to avoid excessive twisting or rolling.
+        \n- Focus on using the muscles of the hip to lift the leg rather than relying on momentum or swinging."
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />

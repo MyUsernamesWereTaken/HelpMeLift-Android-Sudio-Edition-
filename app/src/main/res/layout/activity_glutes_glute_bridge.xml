@@ -6,4 +6,67 @@
     android:layout_height="match_parent"
     tools:context=".ui.GlutesWorkout.GluteBridge">
 
+    <TextView
+        android:id="@+id/exercises"
+        android:layout_width="162dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/Glute_Bridge"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <VideoView
+        android:id="@+id/Glute_Bridgevid"
+        android:layout_width="357dp"
+        android:layout_height="255dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/exercises" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="354dp"
+        android:layout_height="107dp"
+        android:layout_marginTop="12dp"
+        android:text="Set Up:
+        \n- Start by lying on your back on a mat or the floor. Bend your knees and place your feet flat on the ground, hip-width apart.
+        \n- Your arms should be relaxed by your sides with your palms facing down."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Glute_Bridgevid" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="354dp"
+        android:layout_height="151dp"
+        android:layout_marginTop="4dp"
+        android:text="Positioning:
+        \n- Engage your core muscles by drawing your belly button towards your spine. This will help stabilize your spine and pelvis throughout the exercise.
+        \n- Keep your head, neck, and shoulders relaxed on the ground.
+        \nInitiate Movement:
+        \n- Press through your heels and lift your hips off the ground by squeezing your glutes."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="354dp"
+        android:layout_height="155dp"
+        android:layout_marginTop="4dp"
+        android:text="Lift Hips:
+        \n- Lift your hips upward until your body forms a straight line from your knees to your shoulders.
+        \n- Focus on contracting your glutes throughout the movement.
+        \nSafety Considerations:
+        \n- Keep your feet flat on the ground for stability.
+        \n- Don't arch your lower back excessively or allow your knees to collapse inward. Maintain a neutral spine."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

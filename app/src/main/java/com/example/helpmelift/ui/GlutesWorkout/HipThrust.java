@@ -21,12 +21,12 @@ public class HipThrust extends AppCompatActivity {
         ((TextView)findViewById(R.id.exercises)).setText(exercise);
 
         MediaController mediaController = new MediaController(this);
-        VideoView crunch_video= (VideoView) findViewById(R.id.hipthrustvid);
-        crunch_video.setVideoPath("android.resource://" + getPackageName() + "/" + R.raw.ab_crunches);
+        VideoView hipthrust_video= (VideoView) findViewById(R.id.hipthrustvid);
+        hipthrust_video.setVideoPath("android.resource://" + getPackageName() + "/" + R.raw.glutes_hip_thrust);
 
-        mediaController.setAnchorView(crunch_video);
-        crunch_video.setMediaController(mediaController);
+        mediaController.setAnchorView(hipthrust_video);
+        hipthrust_video.setMediaController(mediaController);
 
-        crunch_video.start();
+        hipthrust_video.start();
     }
 }

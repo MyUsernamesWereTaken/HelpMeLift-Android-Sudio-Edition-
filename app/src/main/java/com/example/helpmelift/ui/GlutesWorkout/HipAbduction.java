@@ -11,6 +11,7 @@ import com.example.helpmelift.R;
 
 public class HipAbduction extends AppCompatActivity {
 
+    //VIDEO NOT FOUND
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,12 +21,12 @@ public class HipAbduction extends AppCompatActivity {
         ((TextView)findViewById(R.id.exercises)).setText(exercise);
 
         MediaController mediaController = new MediaController(this);
-        VideoView crunch_video= (VideoView) findViewById(R.id.HipAbductionvid);
-        //crunch_video.setVideoPath("android.resource://" + getPackageName() + "/" + R.raw.ab_crunches);
+        VideoView HipAbduction_video= (VideoView) findViewById(R.id.HipAbductionvid);
+        //HipAbduction_video.setVideoPath("android.resource://" + getPackageName() + "/" + R.raw.glutes_hip_abduction);
 
-        mediaController.setAnchorView(crunch_video);
-        crunch_video.setMediaController(mediaController);
+        mediaController.setAnchorView(HipAbduction_video);
+        HipAbduction_video.setMediaController(mediaController);
 
-        crunch_video.start();
+        HipAbduction_video.start();
     }
 }
