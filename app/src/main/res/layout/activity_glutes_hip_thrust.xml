@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.AbsWorkout.lsit">
+    tools:context=".ui.GlutesWorkout.HipThrust">
 
     <TextView
         android:id="@+id/exercises"
@@ -17,7 +17,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <VideoView
-        android:id="@+id/lsitvid"
+        android:id="@+id/hipthrustvid"
         android:layout_width="357dp"
         android:layout_height="255dp"
         android:layout_marginTop="4dp"
@@ -29,24 +29,26 @@
     <TextView
         android:id="@+id/textView2"
         android:layout_width="354dp"
-        android:layout_height="51dp"
+        android:layout_height="154dp"
         android:layout_marginTop="12dp"
-        android:text="Find a Stable Surface:
-        \n- Choose a stable and flat surface to perform the L-sit.
-        \n- You can use the floor, parallel bars, or dip bars."
+        android:text="Set Up:
+        \n- Sit on the ground with your upper back against a bench or a stable elevated surface.
+        \n- You may want to place a mat or towel on the bench for comfort.
+        \n- Roll a barbell over your thighs and rest it on your hip crease.
+        \n- Alternatively, you can use a resistance band or perform the exercise without any additional weight."
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/lsitvid" />
+        app:layout_constraintTop_toBottomOf="@+id/hipthrustvid" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="354dp"
-        android:layout_height="87dp"
+        android:layout_height="121dp"
         android:layout_marginTop="4dp"
-        android:text="Starting Position:
-        \n- Sit on the floor with your legs extended in front of you.
-        \n- Place your hands on the ground beside your hips, fingers pointing forward.
-        \n- Keep your arms straight, shoulders down, and engage your core muscles."
+        android:text="Positioning:
+        \n- Plant your feet flat on the ground, hip-width apart, with your knees bent at approximately 90 degrees.
+        \n- Ensure that your feet are positioned directly under your knees.
+        \n- Engage your core muscles to stabilize your spine and pelvis throughout the exercise."
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.521"
         app:layout_constraintStart_toStartOf="parent"
@@ -55,12 +57,12 @@
     <TextView
         android:id="@+id/textView4"
         android:layout_width="354dp"
-        android:layout_height="104dp"
+        android:layout_height="120dp"
         android:layout_marginTop="4dp"
-        android:text="Lift Your Body:
-        \n- Press down through your hands and engage your core muscles.
-        \n- Lift your hips off the ground, aiming to bring your legs parallel to the floor.
-        \n -Keep your legs straight and toes pointed."
+        android:text="Initiate Movement:
+        \n- Press through your heels and drive your hips upward by contracting your glutes. Focus on squeezing your glutes at the top of the movement.
+        \nThrust Up:
+        \n- Lift your hips until your body forms a straight line from your knees to your shoulders. Avoid overextending your lower back; aim for a neutral spine alignment."
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />

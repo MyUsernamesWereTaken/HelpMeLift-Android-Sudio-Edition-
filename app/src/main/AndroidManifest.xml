@@ -13,6 +13,18 @@
         android:theme="@style/Theme.HelpMeLift"
         tools:targetApi="31">
         <activity
+            android:name=".ui.GlutesWorkout.HipAdduction"
+            android:exported="false" />
+        <activity
+            android:name=".ui.GlutesWorkout.HipAbduction"
+            android:exported="false" />
+        <activity
+            android:name=".ui.GlutesWorkout.GluteBridge"
+            android:exported="false" />
+        <activity
+            android:name=".ui.GlutesWorkout.HipThrust"
+            android:exported="false" />
+        <activity
             android:name=".ui.ForearmsWorkout.FarmerCarries"
             android:exported="false" />
         <activity

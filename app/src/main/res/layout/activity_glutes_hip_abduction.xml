@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.AbsWorkout.lsit">
+    tools:context=".ui.GlutesWorkout.HipAbduction">
 
     <TextView
         android:id="@+id/exercises"
@@ -17,7 +17,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <VideoView
-        android:id="@+id/lsitvid"
+        android:id="@+id/HipAbductionvid"
         android:layout_width="357dp"
         android:layout_height="255dp"
         android:layout_marginTop="4dp"
@@ -29,14 +29,16 @@
     <TextView
         android:id="@+id/textView2"
         android:layout_width="354dp"
-        android:layout_height="51dp"
+        android:layout_height="120dp"
         android:layout_marginTop="12dp"
-        android:text="Find a Stable Surface:
-        \n- Choose a stable and flat surface to perform the L-sit.
-        \n- You can use the floor, parallel bars, or dip bars."
+        android:text="Set Up:
+        \n- Begin by lying on your side on a mat or the floor. Ensure that your body is in a straight line, with your head, torso, hips, and legs aligned.
+        \nPositioning:
+        \n- Prop yourself up on your bottom elbow, keeping it directly underneath your shoulder for support.
+        \n- Stack your legs on top of each other, keeping them straight."
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/lsitvid" />
+        app:layout_constraintTop_toBottomOf="@+id/HipAbductionvid" />
 
     <TextView
         android:id="@+id/textView3"
@@ -64,5 +66,4 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
