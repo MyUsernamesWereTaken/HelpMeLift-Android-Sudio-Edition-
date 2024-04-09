@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.ForearmsWorkout.FarmerCarries">
+
+    <TextView
+        android:id="@+id/exercises"
+        android:layout_width="162dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/Farmer_Carries"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <VideoView
+        android:id="@+id/Farmer_Carriesvid"
+        android:layout_width="357dp"
+        android:layout_height="255dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/exercises" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="356dp"
+        android:layout_height="117dp"
+        android:layout_marginTop="12dp"
+        android:text="Selecting the Weights:
+        \n- Choose a pair of dumbbells or kettlebells with a weight that challenges you but allows you to maintain proper form throughout the exercise.
+        \n- The weight should be heavy enough to provide resistance but not so heavy that it compromises your ability to walk with good posture.
+        \nSetting Up:
+        \n- Stand tall with your feet hip-width apart, and place the weights on the ground on either side of your body."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Farmer_Carriesvid" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="354dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="4dp"
+        android:text="Setting Up
+        \n- Stand tall with your feet hip-width apart, and place the weights on the ground on either side of your body.
+        \nGripping the Weights:
+        \n- Bend at the knees and hinge at the hips to reach down and grasp the handles of the weights firmly with an overhand grip."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="354dp"
+        android:layout_height="163dp"
+        android:layout_marginTop="4dp"
+        android:text="Lifting the Weights:
+        \n- Engage your core muscles and lift the weights off the ground by straightening your knees and extending your hips.
+        \n- Keep your back flat, chest up, and shoulders pulled back and down throughout the movement to maintain a stable posture.
+        \n- Begin walking forward in a controlled manner, taking slow and deliberate steps while holding the weights at your sides."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

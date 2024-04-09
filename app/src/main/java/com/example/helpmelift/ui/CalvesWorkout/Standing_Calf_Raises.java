@@ -17,7 +17,7 @@ public class Standing_Calf_Raises extends AppCompatActivity {
 
         MediaController mediaController = new MediaController(this);
         VideoView standing_Calf_Raise_video= (VideoView) findViewById(R.id.Standing_Calf_Raises_Vid);
-        //single_standing_Calf_Raise_video.setVideoPath("android.resource://" + getPackageName() + "/" + R.raw.calf_standing_raises);
+        standing_Calf_Raise_video.setVideoPath("android.resource://" + getPackageName() + "/" + R.raw.calves_standing_raises);
 
         mediaController.setAnchorView(standing_Calf_Raise_video);
         standing_Calf_Raise_video.setMediaController(mediaController);

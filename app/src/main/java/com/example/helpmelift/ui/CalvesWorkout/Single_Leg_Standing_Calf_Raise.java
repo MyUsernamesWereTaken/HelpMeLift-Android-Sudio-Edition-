@@ -10,6 +10,8 @@ import com.example.helpmelift.R;
 
 public class Single_Leg_Standing_Calf_Raise extends AppCompatActivity {
 
+
+    //VIDEO NOT FOUND
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

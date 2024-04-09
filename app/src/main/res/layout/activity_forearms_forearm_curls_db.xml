@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.ForearmsWorkout.ForearmCurls_db">
+
+
+    <TextView
+        android:id="@+id/exercises"
+        android:layout_width="162dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/Forearm_Curls_Db"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <VideoView
+        android:id="@+id/ForearmsCurlvid"
+        android:layout_width="357dp"
+        android:layout_height="255dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/exercises" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="354dp"
+        android:layout_height="102dp"
+        android:layout_marginTop="12dp"
+        android:text="Selecting the Weight:
+        \n- Choose a pair of dumbbells with a weight that allows you to perform the exercise with proper form.
+        \n- Start with lighter weights to get accustomed to the movement, and gradually increase the weight as you become stronger."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ForearmsCurlvid" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="354dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="4dp"
+        android:text="Starting Position:
+        \n- Stand upright with a dumbbell in each hand, arms fully extended by your sides, and palms facing your body.
+        \nGripping the Dumbbells:
+        \n- Hold the dumbbells with a firm grip, ensuring that your wrists are straight and aligned with your forearms."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="354dp"
+        android:layout_height="206dp"
+        android:layout_marginTop="4dp"
+        android:text="Curling Motion:
+        \n- Keeping your upper arms stationary and your elbows close to your sides, exhale and slowly curl the dumbbells upward by flexing your forearms.
+        \n- Focus on squeezing your forearm muscles as you lift the dumbbells.
+        \nFull Contraction:
+        \n- Continue curling the dumbbells until your forearms are fully contracted, and the dumbbells are close to your shoulders.
+        \n- Hold the top position briefly to maximize the contraction in your forearms."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
