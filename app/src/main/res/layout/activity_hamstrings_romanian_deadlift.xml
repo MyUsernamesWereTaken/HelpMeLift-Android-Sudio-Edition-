@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.HamstringWorkouts.RomanianDeadlift">
+
+    <TextView
+        android:id="@+id/exercises"
+        android:layout_width="184dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/Romanian_Deadlift_Barbell"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <VideoView
+        android:id="@+id/rdlvid"
+        android:layout_width="357dp"
+        android:layout_height="255dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/exercises" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="354dp"
+        android:layout_height="87dp"
+        android:layout_marginTop="12dp"
+        android:text="Setup:
+        \n- Stand with your feet hip-width apart, toes pointed forward or slightly turned out.
+        \n- Place a barbell in front of you on the ground, using an overhand grip with hands shoulder-width apart."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rdlvid" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="354dp"
+        android:layout_height="167dp"
+        android:layout_marginTop="4dp"
+        android:text="Gripping the Barbell:
+        \n- Bend at the knees and hinge at the hips to lower your body and grip the barbell with both hands. Your hands should be just outside your knees, and your arms should be fully extended.
+        \nStarting Position:
+        \n- With a straight back, shoulders pulled back, and chest up, stand tall and lift the barbell by extending your knees and hips. The barbell should remain close to your body throughout the movement."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="354dp"
+        android:layout_height="168dp"
+        android:layout_marginTop="4dp"
+        android:text="Hip Hinge:
+        \n- Keeping your back flat and core engaged, initiate the movement by pushing your hips back as if you're trying to touch the wall behind you.
+        \n- Allow your knees to bend slightly as your torso hinges forward at the hips.
+        \nLowering Phase:
+        \n- Lower the barbell along the front of your legs while maintaining a slight bend in your knees.
+        \n- Keep your spine neutral and avoid rounding your back."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

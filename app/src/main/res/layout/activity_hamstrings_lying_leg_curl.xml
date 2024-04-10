@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.HamstringWorkouts.LyingLegCurl">
+
+    <TextView
+        android:id="@+id/exercises"
+        android:layout_width="122dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/Lying_Leg_Curl"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <VideoView
+        android:id="@+id/lyinglegcurlvid"
+        android:layout_width="357dp"
+        android:layout_height="255dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/exercises" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="354dp"
+        android:layout_height="154dp"
+        android:layout_marginTop="12dp"
+        android:text="Setup:
+        \n- Lie face down on a leg curl machine with your legs fully extended and your ankles positioned under the padded roller. Adjust the machine so that the roller is positioned just above your heels.
+        \nAdjustments:
+        \n- Adjust the machine settings, including the weight selection and the positioning of the leg pad, according to your strength level and comfort."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lyinglegcurlvid" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="354dp"
+        android:layout_height="183dp"
+        android:layout_marginTop="4dp"
+        android:text="Positioning:
+        \n- Keep your hips and torso flat against the bench, and your head in a neutral position. Your knees should be just off the edge of the bench, and your legs should be fully extended.
+        \nActivation:
+        \n- Engage your core muscles to stabilize your lower back and pelvis throughout the movement.
+        \nCurling Motion:
+        \n- Exhale and bend your knees, curling the roller towards your glutes by flexing your hamstrings."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="354dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="4dp"
+        android:text="Controlled Lowering:
+        \n- Inhale and slowly lower back to the starting position, extending your knees and straightening your legs.
+        \n- Maintain control over the movement to prevent the weight from slamming down."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
