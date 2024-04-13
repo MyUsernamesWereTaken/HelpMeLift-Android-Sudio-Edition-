@@ -13,6 +13,18 @@
         android:theme="@style/Theme.HelpMeLift"
         tools:targetApi="31">
         <activity
+            android:name=".ui.QuadsWorkouts.HackSquats"
+            android:exported="false" />
+        <activity
+            android:name=".ui.QuadsWorkouts.LegExtensions"
+            android:exported="false" />
+        <activity
+            android:name=".ui.QuadsWorkouts.LegPress"
+            android:exported="false" />
+        <activity
+            android:name=".ui.QuadsWorkouts.BackSquat"
+            android:exported="false" />
+        <activity
             android:name=".ui.LowerBackWorkouts.KettleBellSwings"
             android:exported="false" />
         <activity

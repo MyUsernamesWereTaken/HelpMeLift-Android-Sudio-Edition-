@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.QuadsWorkouts.LegPress">
+
+    <TextView
+        android:id="@+id/exercises"
+        android:layout_width="158dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/Leg_Press"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <VideoView
+        android:id="@+id/LegPressvid"
+        android:layout_width="357dp"
+        android:layout_height="255dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/exercises" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="354dp"
+        android:layout_height="169dp"
+        android:layout_marginTop="12dp"
+        android:text="                                     Adjust the Machine:
+        \n- Sit on the leg press machine and adjust the seat so that your knees are at a 90-degree angle when your feet are placed on the footplate.
+        \n- Your feet should be about shoulder-width apart.
+        \n                                      Position Your Feet:
+        \n- Place your feet flat on the footplate with your heels firmly planted and your toes pointing slightly outward.
+        \n- Make sure your feet are positioned securely and evenly on the footplate."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LegPressvid" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="354dp"
+        android:layout_height="152dp"
+        android:layout_marginTop="8dp"
+        android:text="                                    Brace Your Core:
+        \n- Engage your core muscles by drawing your belly button towards your spine.
+        \n- This will help stabilize your body during the exercise.
+        \n                                       Push the Weight:
+        \n- Press through your heels and extend your legs, pushing the footplate away from your body.
+        \n- Keep your back flat against the seat throughout the movement."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="354dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="4dp"
+        android:text="                                      Lower the Weight:
+        \n- Slowly bend your knees and lower the footplate back towards your body until your knees are at a 90-degree angle again.
+        \n- Avoid locking out your knees at the top of the movement."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
