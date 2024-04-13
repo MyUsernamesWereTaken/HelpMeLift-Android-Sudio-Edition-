@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.LatsWorkout.CableRows">
+
+    <TextView
+        android:id="@+id/exercises"
+        android:layout_width="122dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/Cable_Rows"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <VideoView
+        android:id="@+id/cableRowvid"
+        android:layout_width="357dp"
+        android:layout_height="255dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/exercises" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="354dp"
+        android:layout_height="205dp"
+        android:layout_marginTop="12dp"
+        android:text="                                  Set Up Equipment:
+        \n- Attach a straight handle to the cable machine.
+        \n- Adjust the cable pulley to a height that allows you to sit comfortably with your arms extended.
+        \n                                  Select Weight:
+        \n- Start with a lighter weight until you are comfortable with the movement.
+        \n                                  Position Yourself:
+        \n- Stand in front of the cable machine with your feet shoulder-width apart.
+        \n- Grasp the handle with an overhand grip and step back to create tension in the cable."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cableRowvid" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="354dp"
+        android:layout_height="152dp"
+        android:layout_marginTop="4dp"
+        android:text="                                  Set Your Posture:
+        \n- Bend your knees slightly and hinge forward at the hips while keeping your back straight.
+        \n- Your torso should be at about a 45-degree angle to the floor.
+        \n                                   Initiate the Movement:
+        \n- Retract your shoulder blades and keep your arms as straight as possible. Then pull the weight in an arc motion towards your hip."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="354dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="4dp"
+        android:text="                                   Controlled Lowering:
+        \n- Slowly relax and stretch your lats as much as possible before pulling back."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

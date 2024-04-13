@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.LowerBackWorkouts.PrisonerBackExtensions">
+
+    <TextView
+        android:id="@+id/exercises"
+        android:layout_width="158dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/Prisoner_Back_Extensions"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <VideoView
+        android:id="@+id/PrisonerBackExtensionsvid"
+        android:layout_width="357dp"
+        android:layout_height="255dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/exercises" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="354dp"
+        android:layout_height="149dp"
+        android:layout_marginTop="12dp"
+        android:text="Starting Position:
+        \n- Begin by standing with your feet shoulder-width apart and place your hands behind your head, interlocking your fingers.
+        \n
+        \nEngage Core:
+        \n- Engage your core muscles by pulling your belly button towards your spine. This will help stabilize your spine during the exercise."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PrisonerBackExtensionsvid" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="354dp"
+        android:layout_height="172dp"
+        android:layout_marginTop="8dp"
+        android:text="Lowering Phase:
+        \n- Slowly hinge forward at your hips while keeping your back straight. Bend forward until you can see the underside of the machine.
+        \n- Keep your neck in line with your spine, avoiding any strain.
+        \n
+        \nExtension:
+        \n- From the lowered position, squeeze your glutes and lower back muscles to lift your torso back up."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="354dp"
+        android:layout_height="109dp"
+        android:layout_marginTop="4dp"
+        android:text="Full Extension:
+        \n- At the top of the movement, squeeze your glutes and lower back muscles to achieve a full extension of your torso.
+        \n- Keep your core engaged throughout the movement to protect your spine."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

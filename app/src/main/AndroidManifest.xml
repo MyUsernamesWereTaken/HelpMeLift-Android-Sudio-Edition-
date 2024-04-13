@@ -13,6 +13,30 @@
         android:theme="@style/Theme.HelpMeLift"
         tools:targetApi="31">
         <activity
+            android:name=".ui.LowerBackWorkouts.KettleBellSwings"
+            android:exported="false" />
+        <activity
+            android:name=".ui.LowerBackWorkouts.GoodMornings"
+            android:exported="false" />
+        <activity
+            android:name=".ui.LowerBackWorkouts.Deadlift"
+            android:exported="false" />
+        <activity
+            android:name=".ui.LowerBackWorkouts.PrisonerBackExtensions"
+            android:exported="false" />
+        <activity
+            android:name=".ui.LatsWorkout.CableRows"
+            android:exported="false" />
+        <activity
+            android:name=".ui.LatsWorkout.Chest_Supported_Rows"
+            android:exported="false" />
+        <activity
+            android:name=".ui.LatsWorkout.PendlayRows"
+            android:exported="false" />
+        <activity
+            android:name=".ui.LatsWorkout.LatPulldown"
+            android:exported="false" />
+        <activity
             android:name=".ui.HamstringWorkouts.DeadLifts"
             android:exported="false" />
         <activity

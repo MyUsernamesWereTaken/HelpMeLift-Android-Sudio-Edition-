@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.LatsWorkout.LatPulldown">
+
+    <TextView
+        android:id="@+id/exercises"
+        android:layout_width="122dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/Lat_Pulldown"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <VideoView
+        android:id="@+id/LatPulldownvid"
+        android:layout_width="357dp"
+        android:layout_height="255dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/exercises" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="354dp"
+        android:layout_height="134dp"
+        android:layout_marginTop="6dp"
+        android:text="Sit Down:
+        \n- Sit on the seat of the lat pulldown machine and adjust the thigh pads so they rest snugly against your thighs.
+        \n- Your feet should be flat on the floor.
+        \n
+        \nGrab the Bar:
+        \n- Reach up and grab the bar with an overhand grip, slightly wider than shoulder-width apart."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LatPulldownvid" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="356dp"
+        android:layout_height="168dp"
+        android:layout_marginTop="6dp"
+        android:text="Set Your Posture:
+        \n- Sit up tall with your chest lifted and your shoulders relaxed.
+        \n- This helps maintain proper alignment and reduces strain on your lower back.
+        \nPull Down:
+        \n- Pull the bar down towards your chest by engaging your back muscles.
+        \n- Imagine squeezing your shoulder blades together as you pull the bar down."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="361dp"
+        android:layout_height="121dp"
+        android:layout_marginTop="6dp"
+        android:text="Hold and Squeeze:
+        \n- Hold the bar momentarily at chest level and squeeze your back muscles.
+        \nRelease Slowly:
+        \n- Slowly release the bar back up to the starting position, allowing your arms to straighten fully.
+        \n- Control the movement throughout."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
