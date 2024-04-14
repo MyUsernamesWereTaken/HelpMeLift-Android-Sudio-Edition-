@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.TricepsWorkouts.OverheadTricepExtension">
+
+    <TextView
+        android:id="@+id/exercises"
+        android:layout_width="158dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/Overhead_Tricep_Extensions"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <VideoView
+        android:id="@+id/TricepExtensionvid"
+        android:layout_width="354dp"
+        android:layout_height="255dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/exercises" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="354dp"
+        android:layout_height="166dp"
+        android:layout_marginTop="8dp"
+        android:text="                                              Setup:
+        \n- Begin by attaching a rope handle to the cable machine.
+        \n- Stand facing away from the machine with your feet shoulder-width apart.
+        \n- Grasp the rope with both hands using an overhand grip.
+        \n                                         Positioning:
+        \n- Lift the rope overhead and extend your arms fully, keeping your elbows close to your head.
+        \n- Your hands should be positioned behind your head, and the rope should be taut."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TricepExtensionvid" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="356dp"
+        android:layout_height="181dp"
+        android:layout_marginTop="4dp"
+        android:text="                                         Bend Elbows:
+        \n- Slowly lower the rope behind your head by bending your elbows.
+        \n- Keep your upper arms stationary and your elbows pointed forward throughout the movement.
+        \n- Lower the rope until your forearms are slightly below parallel to the ground.
+        \n                                            Stretch:
+        \n- Feel the stretch in your triceps as you lower the rope.
+        \n- Keep your core engaged to stabilize your body and prevent swaying."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="354dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="4dp"
+        android:text="                                 Controlled Return:
+        \n- Once you reach the bottom of the movement, extend your elbows to raise the rope back up high.
+        \n- Focus on squeezing your triceps as you straighten your arms."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

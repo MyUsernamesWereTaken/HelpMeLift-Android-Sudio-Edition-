@@ -20,7 +20,7 @@ public class HackSquats extends AppCompatActivity {
         ((TextView)findViewById(R.id.exercises)).setText(exercise);
 
         MediaController mediaController = new MediaController(this);
-        VideoView BackSquat_video= (VideoView) findViewById(R.id.BackSquatvid);
+        VideoView BackSquat_video= (VideoView) findViewById(R.id.HackSquatvid);
         BackSquat_video.setVideoPath("android.resource://" + getPackageName() + "/" + R.raw.quads_hack_squat);
 
         mediaController.setAnchorView(BackSquat_video);

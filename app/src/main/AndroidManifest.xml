@@ -13,74 +13,95 @@
         android:theme="@style/Theme.HelpMeLift"
         tools:targetApi="31">
         <activity
+            android:name=".ui.TricepsWorkouts.TricepPushdown"
+            android:exported="true" />
+        <activity
+            android:name=".ui.TricepsWorkouts.OverheadTricepExtension"
+            android:exported="true" />
+        <activity
+            android:name=".ui.TricepsWorkouts.TricepKickback"
+            android:exported="true" />
+        <activity
+            android:name=".ui.TricepsWorkouts.SkullCrushers"
+            android:exported="true" />
+        <activity
+            android:name=".ui.TrapsWorkouts.UprightRow"
+            android:exported="true" />
+        <activity
+            android:name=".ui.TrapsWorkouts.FacePulls"
+            android:exported="true" />
+        <activity
+            android:name=".ui.TrapsWorkouts.DumbbellShrugs"
+            android:exported="true" />
+        <activity
             android:name=".ui.QuadsWorkouts.HackSquats"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".ui.QuadsWorkouts.LegExtensions"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".ui.QuadsWorkouts.LegPress"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".ui.QuadsWorkouts.BackSquat"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".ui.LowerBackWorkouts.KettleBellSwings"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".ui.LowerBackWorkouts.GoodMornings"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".ui.LowerBackWorkouts.Deadlift"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".ui.LowerBackWorkouts.PrisonerBackExtensions"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".ui.LatsWorkout.CableRows"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".ui.LatsWorkout.Chest_Supported_Rows"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".ui.LatsWorkout.PendlayRows"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".ui.LatsWorkout.LatPulldown"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".ui.HamstringWorkouts.DeadLifts"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".ui.HamstringWorkouts.RomanianDeadlift"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".ui.HamstringWorkouts.SeatedLegCurl"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".ui.HamstringWorkouts.LyingLegCurl"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".ui.GlutesWorkout.HipAdduction"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".ui.GlutesWorkout.HipAbduction"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".ui.GlutesWorkout.GluteBridge"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".ui.GlutesWorkout.HipThrust"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".ui.ForearmsWorkout.FarmerCarries"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".ui.ForearmsWorkout.ForearmCurls_db"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".ui.ForearmsWorkout.HammerCurls"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".ui.DeltWorkout.Bent_Over_Rear_Delt_Flys"
             android:exported="true" />

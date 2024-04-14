@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.TrapsWorkouts.UprightRow">
+
+    <TextView
+        android:id="@+id/exercises"
+        android:layout_width="158dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/Upright_Row"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <VideoView
+        android:id="@+id/UprightRowvid"
+        android:layout_width="357dp"
+        android:layout_height="255dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/exercises" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="354dp"
+        android:layout_height="182dp"
+        android:layout_marginTop="8dp"
+        android:text="                                              Setup:
+        \n- Stand with your feet shoulder-width apart, holding a barbell or dumbbells in front of your thighs with an overhand grip.
+        \n- Your hands should be slightly closer than shoulder-width apart.
+        \n                                    Starting Position:
+        \n- Let your arms hang straight down in front of you, with the weight resting against your thighs.
+        \n- Keep your back straight, chest up, and shoulders relaxed."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/UprightRowvid" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="354dp"
+        android:layout_height="167dp"
+        android:layout_marginTop="4dp"
+        android:text="                                         Lift the Weight:
+        \n- Exhale and pull the weight straight up towards your chin by bending your elbows and raising your hands.
+        \n- Keep the weight close to your body throughout the movement.
+        \n                                      Elbows High:
+        \n- As you lift the weight, lead with your elbows and keep them higher than your hands.
+        \n- Focus on squeezing your shoulder blades together at the top of the movement."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="354dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="4dp"
+        android:text="                                       Hold and Squeeze:
+        \n- Hold the top position for a brief moment, focusing on contracting your shoulder muscles.
+        \n- Keep your wrists straight and elbows pointed out to the sides."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

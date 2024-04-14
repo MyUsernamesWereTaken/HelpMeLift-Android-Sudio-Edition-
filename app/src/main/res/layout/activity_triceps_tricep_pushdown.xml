@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.TricepsWorkouts.TricepPushdown">
+
+    <TextView
+        android:id="@+id/exercises"
+        android:layout_width="158dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/Tricep_Pushdown"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <VideoView
+        android:id="@+id/TricepPushdownvid"
+        android:layout_width="354dp"
+        android:layout_height="255dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/exercises" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="354dp"
+        android:layout_height="195dp"
+        android:layout_marginTop="8dp"
+        android:text="                                              Setup:
+        \n- Begin by attaching a straight bar to the high pulley of a cable machine.
+        \n- Stand facing the machine with your feet shoulder-width apart.
+        \n- Grasp the bar with an overhand grip, hands shoulder-width apart, and elbows close to your sides.
+        \n                                         Positioning:
+        \n- Pull the bar down until your elbows are fully extended and your arms are straight.
+        \n- Keep your upper arms stationary throughout the exercise, perpendicular to the floor."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TricepPushdownvid" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="354dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="4dp"
+        android:text="                                      Engage Triceps:
+        \n- Engage your triceps by squeezing them as you push the bar downward.
+        \n- Keep your core tight to stabilize your body and prevent excessive swinging.
+        \n                                     Lower the Bar:
+        \n-  Slowly lower the bar by bending your elbows, allowing it to move upward until your forearms are parallel to the ground or slightly above."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="354dp"
+        android:layout_height="86dp"
+        android:layout_marginTop="4dp"
+        android:text="                                 Controlled Return:
+        \n- Pause for a moment at the bottom of the movement, feeling the contraction in your triceps.
+        \n- Focus on maintaining tension in the muscles and avoid locking out your elbows."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

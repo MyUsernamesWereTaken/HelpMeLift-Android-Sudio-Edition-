@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.TricepsWorkouts.TricepKickback">
+
+    <TextView
+        android:id="@+id/exercises"
+        android:layout_width="158dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/Tricep_Kickback"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <VideoView
+        android:id="@+id/TricepKickbacksvid"
+        android:layout_width="354dp"
+        android:layout_height="255dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/exercises" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="356dp"
+        android:layout_height="167dp"
+        android:layout_marginTop="8dp"
+        android:text="                                              Setup:
+        \n- Begin by standing with your feet shoulder-width apart.
+        \n- Hold a dumbbell in each hand and hinge forward at your hips so your torso is almost parallel to the ground.
+        \n- Keep your back straight and knees slightly bent.
+        \n                                    Position Arms:
+        \n- Start with your arms bent at a 90-degree angle, with your elbows close to your sides.
+        \n- Your palms should be facing each other, and the dumbbells should be positioned just below your chest."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TricepKickbacksvid" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="354dp"
+        android:layout_height="149dp"
+        android:layout_marginTop="4dp"
+        android:text="                                  Extend Arms Backward:
+        \n- Keeping your upper arms stationary, straighten your arms backward until they are fully extended.
+        \n- Your elbows should remain close to your body throughout the movement.
+        \n                                   Squeeze Triceps:
+        \n- At the top of the movement, contract your triceps muscles and hold the position briefly to maximize muscle engagement."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="354dp"
+        android:layout_height="104dp"
+        android:layout_marginTop="4dp"
+        android:text="                                 Controlled Return:
+        \n- Slowly bend your elbows to lower the dumbbells back to the starting position, maintaining control over the weight throughout the movement.
+        \n- Keep your back straight and avoid swinging the weights."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

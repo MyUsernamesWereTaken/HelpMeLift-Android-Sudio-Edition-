@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.TricepsWorkouts.SkullCrushers">
+
+    <TextView
+        android:id="@+id/exercises"
+        android:layout_width="158dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/SkullCrushers"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <VideoView
+        android:id="@+id/SkullCrushersvid"
+        android:layout_width="357dp"
+        android:layout_height="255dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/exercises" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="354dp"
+        android:layout_height="182dp"
+        android:layout_marginTop="8dp"
+        android:text="                                              Setup:
+        \n- Lie down on a flat bench with your back flat against the surface.
+        \n- Hold an EZ-bar or dumbbells with an overhand grip, with your hands shoulder-width apart.
+        \n- Extend your arms straight up over your chest.
+        \n                                    Lower the Weight:
+        \n- Keeping your upper arms stationary and elbows pointing forward, slowly bend your elbows to lower the weight towards your forehead.
+        \n- Lower the weight until your elbows are at about a 90-degree angle."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SkullCrushersvid" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="354dp"
+        android:layout_height="167dp"
+        android:layout_marginTop="4dp"
+        android:text="                                      Engage Triceps:
+        \n- As you lower the weight, focus on keeping your upper arms perpendicular to the floor and your elbows in a fixed position.
+        \n- This will engage your triceps muscles.
+        \n                                      Extend Arms:
+        \n- Exhale and extend your arms back to the starting position by straightening your elbows.
+        \n- Keep your wrists steady and maintain control over the weight."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="354dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="4dp"
+        android:text="                                  Avoid Locking Elbows:
+        \n- At the top of the movement, stop just short of locking out your elbows to maintain tension on the triceps muscles."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
