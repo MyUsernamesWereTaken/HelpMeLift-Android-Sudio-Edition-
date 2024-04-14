@@ -48,25 +48,21 @@ public class AbsExercisesFragment extends Fragment {
 
     public void glimpseCrunches(Context context) {
         Intent intent = new Intent(context, crunch.class);
-        intent.putExtra("Exercise", "Crunches");
         startActivity(intent);
 
     }
 
     public void glimpseSitup(Context context) {
         Intent intent = new Intent(context, situps.class);
-        intent.putExtra("Exercise", "Sit-up");
         startActivity(intent);
     }
     public void glimpseLsit(Context context) {
         Intent intent = new Intent(context, lsit.class);
-        intent.putExtra("Exercise", "L-sit");
         startActivity(intent);
    }
 
     public void glimpseRussiantwist(Context context) {
         Intent intent = new Intent(context, russiantwist.class);
-        intent.putExtra("Exercise", "Russian Twists");
         startActivity(intent);
     }
 
