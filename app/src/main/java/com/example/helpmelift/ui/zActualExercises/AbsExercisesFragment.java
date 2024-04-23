@@ -3,6 +3,7 @@ package com.example.helpmelift.ui.zActualExercises;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -49,7 +50,6 @@ public class AbsExercisesFragment extends Fragment {
     public void glimpseCrunches(Context context) {
         Intent intent = new Intent(context, crunch.class);
         startActivity(intent);
-
     }
 
     public void glimpseSitup(Context context) {

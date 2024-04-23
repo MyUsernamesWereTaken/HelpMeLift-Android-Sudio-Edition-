@@ -69,13 +69,11 @@ public class MuscleGroupsFragment extends Fragment {
 
         return root;
     }
-
     @Override
     public void onDestroyView() {
         super.onDestroyView();
         binding = null;
     }
-
     private void viewDelts(Context context) {
         Intent intent = new Intent(context, DeltMuscle.class);
         intent.putExtra("Muscle", "Deltoids/Shoulders");
