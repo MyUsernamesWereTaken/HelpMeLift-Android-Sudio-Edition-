@@ -21,7 +21,7 @@ public class LatPulldown extends AppCompatActivity {
 
         MediaController mediaController = new MediaController(this);
         VideoView LatPulldown_video= (VideoView) findViewById(R.id.LatPulldownvid);
-        LatPulldown_video.setVideoPath("android.resource://" + getPackageName() + "/" + R.raw.lats_row);
+        LatPulldown_video.setVideoPath("android.resource://" + getPackageName() + "/" + R.raw.lats_lat_pulldown);
 
         mediaController.setAnchorView(LatPulldown_video);
         LatPulldown_video.setMediaController(mediaController);

@@ -8,6 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
@@ -31,7 +32,7 @@ public class AbsExercisesFragment extends Fragment {
         Button crunch_butt = root.findViewById(R.id.Crunches);
         Button situpButton = root.findViewById(R.id.Situp);
         Button lsitButton = root.findViewById(R.id.Lsit);
-        Button russiantwistsButton = root.findViewById(R.id.RussianTwists);
+        Button russiantwistsButton = root.findViewB##yId(R.id.RussianTwists);
 
         crunch_butt.setOnClickListener(v1 -> glimpseCrunches(requireContext()));
         situpButton.setOnClickListener(v2 -> glimpseSitup(requireContext()));
@@ -50,6 +51,7 @@ public class AbsExercisesFragment extends Fragment {
     public void glimpseCrunches(Context context) {
         Intent intent = new Intent(context, crunch.class);
         startActivity(intent);
+        Toast.makeText(context, "", Toast.LENGTH_SHORT).show();
     }
 
     public void glimpseSitup(Context context) {
